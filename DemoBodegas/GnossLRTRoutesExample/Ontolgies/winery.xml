@@ -1,0 +1,850 @@
+<config>
+    <ConfiguracionGeneral>
+        <namespace>winery</namespace>
+        <idiomasOnto>
+            <idiomaOnto>es</idiomaOnto>
+        </idiomasOnto>
+        <ocultarTituloDescpImgDoc></ocultarTituloDescpImgDoc>
+        <TituloDoc EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Winery">http://protege.stanford.edu/rdf/HTOv4002#name</TituloDoc>
+        <DescripcionDoc EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Winery">http://protege.stanford.edu/rdf/HTOv4002#longDescription</DescripcionDoc>
+        <HtmlNuevo>true</HtmlNuevo>
+		<IncluirIconoGnoss></IncluirIconoGnoss>
+		<CategorizacionTesauroGnossObligatoria>false</CategorizacionTesauroGnossObligatoria>
+		<ImagenDoc EntidadID="http://www.eharmonise/2014-03-12#Image">http://www.eharmonise/2014-03-12#image</ImagenDoc>
+		<MultiIdioma></MultiIdioma>
+		<GruposEditoresFijos><Grupo Organizacion="lariojaturismo">editoreslrt</Grupo></GruposEditoresFijos>
+		<OcultarEditoresDoc></OcultarEditoresDoc>
+		<OcultarPublicadorDoc></OcultarPublicadorDoc>
+		<OcultarCategoriasDoc></OcultarCategoriasDoc>
+		<OcultarEtiquetasDoc></OcultarEtiquetasDoc>
+		<OcultarVisitasDoc></OcultarVisitasDoc>
+		 <MetasPagina xml:lang="es">
+            <meta name="keywords" content="bodega, bodegas" />
+        </MetasPagina>        
+        <MetasPagina xml:lang="en">
+            <meta name="keywords" content="winery, wineries" />
+        </MetasPagina>
+		
+		<TituloPagina>
+			<Propiedad ID="http://protege.stanford.edu/rdf/HTOv4002#name" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Winery"></Propiedad>
+			<Literal> - </Literal>
+			<Literal>Bodegas@es|||Winery@en|||</Literal>	
+		</TituloPagina>
+    </ConfiguracionGeneral>
+	
+    <EspefPropiedad>
+	
+		<Propiedad  ID="http://www.eharmonise/2014-03-12#googlePlus" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Winery">
+			<AtrNombre xml:lang="es">Google+:</AtrNombre>
+			<AtrNombreLectura xml:lang="es">Google+:</AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+				<TipoCampo>Link</TipoCampo>
+		</Propiedad>
+	
+		<Propiedad  ID="http://www.eharmonise/2014-03-12#youtube" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Winery">
+			<AtrNombre xml:lang="es">Youtube:</AtrNombre>
+			<AtrNombreLectura xml:lang="es">Youtube:</AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+				<TipoCampo>Link</TipoCampo>
+		</Propiedad>
+		<Propiedad  ID="http://www.eharmonise/2014-03-12#facebook" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Winery">
+			<AtrNombre xml:lang="es">Facebook:</AtrNombre>
+			<AtrNombreLectura xml:lang="es">Facebook:</AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+				<TipoCampo>Link</TipoCampo>
+		</Propiedad>
+		
+		<Propiedad  ID="http://www.eharmonise/2014-03-12#twitter" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Winery">
+			<AtrNombre xml:lang="es">Twitter:</AtrNombre>
+			<AtrNombreLectura xml:lang="es">Twitter:</AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+				<TipoCampo>Link</TipoCampo>
+		</Propiedad>
+		
+		<Propiedad  ID="http://www.eharmonise/2014-03-12#linkedin" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Winery">
+			<AtrNombre xml:lang="es">Linkedin:</AtrNombre>
+			<AtrNombreLectura xml:lang="es">Linkedin:</AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+				<TipoCampo>Link</TipoCampo>
+		</Propiedad>
+		 
+		<Propiedad  ID="http://www.eharmonise/2014-03-12#instagram" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Winery">
+			<AtrNombre xml:lang="es">Instagram:</AtrNombre>
+			<AtrNombreLectura xml:lang="es">Instagram:</AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+				<TipoCampo>Link</TipoCampo>
+		</Propiedad>
+		
+		<Propiedad  ID="http://www.eharmonise/2014-03-12#pinterest" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Winery">
+			<AtrNombre xml:lang="es">Pinterest:</AtrNombre>
+			<AtrNombreLectura xml:lang="es">Pinterest:</AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+				<TipoCampo>Link</TipoCampo>
+		</Propiedad>
+		
+		<Propiedad  ID="http://www.eharmonise/2014-03-12#flickr" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Winery">
+			<AtrNombre xml:lang="es">Flickr:</AtrNombre>
+			<AtrNombreLectura xml:lang="es">Flickr:</AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+				<TipoCampo>Link</TipoCampo>
+		</Propiedad>
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<Propiedad  ID="http://protege.stanford.edu/rdf/HTOv4002#name" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Winery">
+           	<AtrNombre xml:lang="es">Nombre: </AtrNombre><AtrNombreLectura xml:lang="es"></AtrNombreLectura>
+			<AtrNombre xml:lang="de">Name: </AtrNombre><AtrNombreLectura xml:lang="de"></AtrNombreLectura>
+			<AtrNombre xml:lang="fr">Nom: </AtrNombre><AtrNombreLectura xml:lang="fr"></AtrNombreLectura>
+			<AtrNombre xml:lang="en">Name: </AtrNombre>	<AtrNombreLectura xml:lang="en"></AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+        </Propiedad>
+		
+		<Propiedad  ID="http://protege.stanford.edu/rdf/HTOv4002#shortDescription" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Winery">
+            <AtrNombre xml:lang="es">Descripción Corta: </AtrNombre><AtrNombreLectura xml:lang="es"></AtrNombreLectura>
+			<AtrNombre xml:lang="de">Kurzbeschreibung: </AtrNombre><AtrNombreLectura xml:lang="de"></AtrNombreLectura>
+			<AtrNombre xml:lang="fr">Description courte: </AtrNombre><AtrNombreLectura xml:lang="fr"></AtrNombreLectura>
+			<AtrNombre xml:lang="en">Short Description: </AtrNombre><AtrNombreLectura xml:lang="en"></AtrNombreLectura>
+        </Propiedad>
+
+		<Propiedad  ID="http://protege.stanford.edu/rdf/HTOv4002#longDescription" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Winery">
+            <AtrNombre xml:lang="es">Descripción: </AtrNombre><AtrNombreLectura xml:lang="es"></AtrNombreLectura>
+			<AtrNombre xml:lang="de">Beschreibung: </AtrNombre><AtrNombreLectura xml:lang="de"></AtrNombreLectura>
+			<AtrNombre xml:lang="fr">Description: </AtrNombre><AtrNombreLectura xml:lang="fr"></AtrNombreLectura>
+			<AtrNombre xml:lang="en">Description: </AtrNombre><AtrNombreLectura xml:lang="en"></AtrNombreLectura>
+			<TipoCampo>TextEditor</TipoCampo>
+        </Propiedad>		
+		
+		<Propiedad  ID="http://protege.stanford.edu/rdf/HTOv4002#url" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Winery">
+              <AtrNombre xml:lang="es">Página Web: </AtrNombre><AtrNombreLectura xml:lang="es">Página Web: </AtrNombreLectura><AtrNombre xml:lang="de">Url: </AtrNombre><AtrNombreLectura xml:lang="de">Url: </AtrNombreLectura><AtrNombre xml:lang="fr">Page Web: </AtrNombre><AtrNombreLectura xml:lang="fr">Page Web: </AtrNombreLectura><AtrNombre xml:lang="en">Web page: </AtrNombre><AtrNombreLectura xml:lang="en">Web page: </AtrNombreLectura>
+			<TipoCampo>Link</TipoCampo>
+			<MultiIdioma>false</MultiIdioma>
+        </Propiedad>		
+		
+		<!--CAMPOS DE DIRECCIÓN-->
+		
+	    <Propiedad  ID="http://protege.stanford.edu/rdf/HTOv4002#streetAddress" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Winery">
+            <AtrNombre xml:lang="es">Dirección: </AtrNombre><AtrNombreLectura xml:lang="es">Dirección: </AtrNombreLectura><AtrNombre xml:lang="de">Adresse: </AtrNombre><AtrNombreLectura xml:lang="de">Adresse: </AtrNombreLectura><AtrNombre xml:lang="fr">Adresse: </AtrNombre><AtrNombreLectura xml:lang="fr">Adresse: </AtrNombreLectura><AtrNombre xml:lang="en">Address: </AtrNombre><AtrNombreLectura xml:lang="en">Address: </AtrNombreLectura>
+		</Propiedad>		
+		
+		<!--CITY-->		
+		
+		<Propiedad  ID="http://protege.stanford.edu/rdf/HTOv4002#city" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Winery">
+			<AtrNombre xml:lang="es">Población: </AtrNombre><AtrNombreLectura xml:lang="es">Población: </AtrNombreLectura><AtrNombre xml:lang="de">Bevölkerung: </AtrNombre><AtrNombreLectura xml:lang="de">Bevölkerung: </AtrNombreLectura><AtrNombre xml:lang="fr">Town: </AtrNombre><AtrNombreLectura xml:lang="fr">Town: </AtrNombreLectura><AtrNombre xml:lang="en">Town: </AtrNombre><AtrNombreLectura xml:lang="en">Town: </AtrNombreLectura>
+			<SeleccionEntidad>
+				<NuevaPestanya>false</NuevaPestanya>
+				<LinkARecurso IrAComunidad="true"></LinkARecurso>
+				<TipoSeleccion>Combo</TipoSeleccion>
+				<Grafo>destination.owl</Grafo>
+				<UrlTipoEntSolicitada>http://www.eharmonise/2014-03-12#Destination</UrlTipoEntSolicitada>
+				<PropsEntEdicion>
+					<NameProp>http://protege.stanford.edu/rdf/HTOv4002#name</NameProp>
+				</PropsEntEdicion>
+				<PropsEntLectura>
+					<Propiedad ID="http://protege.stanford.edu/rdf/HTOv4002#name" EntidadID="http://www.eharmonise/2014-03-12#Destination">
+						<AtrNombreLectura> </AtrNombreLectura>
+					</Propiedad>
+					<!--<Propiedad  ID="http://www.eharmonise/2014-03-12#idAemet" EntidadID="http://www.eharmonise/2014-03-12#Destination">
+						<AtrNombreLectura></AtrNombreLectura>
+					</Propiedad>-->
+					
+				</PropsEntLectura>
+				<ConsultaEdicion><![CDATA[select distinct ?s ?p ?name  from  <http://lariojaturismo.gnoss.com/destination.owl>  
+WHERE {  ?s ?p ?name. FILTER (?p=<http://protege.stanford.edu/rdf/HTOv4002#name>) } order by ?name  ]]></ConsultaEdicion>
+			</SeleccionEntidad>
+			<MultiIdioma>false</MultiIdioma>
+		</Propiedad>	
+
+        <Propiedad  ID="http://protege.stanford.edu/rdf/HTOv4002#region" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Winery">
+            <AtrNombre xml:lang="es">Comarca: </AtrNombre><AtrNombreLectura xml:lang="es">Comarca: </AtrNombreLectura><AtrNombre xml:lang="de">District: </AtrNombre><AtrNombreLectura xml:lang="de">District: </AtrNombreLectura><AtrNombre xml:lang="fr">District: </AtrNombre><AtrNombreLectura xml:lang="fr">District: </AtrNombreLectura><AtrNombre xml:lang="en">District: </AtrNombre><AtrNombreLectura xml:lang="en">District: </AtrNombreLectura>
+			<ValoresCombo>
+				<ValorCombo>Logroño y alrededores</ValorCombo>
+				<ValorCombo>La Rioja Alta</ValorCombo>
+				<ValorCombo>La Rioja Suroriental</ValorCombo>	
+				<ValorCombo>Sierra</ValorCombo>
+			</ValoresCombo>
+			<MultiIdioma>false</MultiIdioma>
+		</Propiedad>
+
+  		<Propiedad  ID="http://protege.stanford.edu/rdf/HTOv4002#telephone" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Winery">
+            <AtrNombre xml:lang="es">Teléfono: </AtrNombre><AtrNombreLectura xml:lang="es">Teléfono: </AtrNombreLectura><AtrNombre xml:lang="de">Telefon: </AtrNombre><AtrNombreLectura xml:lang="de">Telefon: </AtrNombreLectura><AtrNombre xml:lang="fr">Téléphone: </AtrNombre><AtrNombreLectura xml:lang="fr">Téléphone: </AtrNombreLectura><AtrNombre xml:lang="en">Phone: </AtrNombre><AtrNombreLectura xml:lang="en">Phone: </AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+		</Propiedad>
+		
+		<Propiedad  ID="http://protege.stanford.edu/rdf/HTOv4002#fax" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Winery">
+            <AtrNombre xml:lang="es">Fax: </AtrNombre><AtrNombreLectura xml:lang="es">Fax: </AtrNombreLectura><AtrNombre xml:lang="de">Fax: </AtrNombre><AtrNombreLectura xml:lang="de">Fax: </AtrNombreLectura><AtrNombre xml:lang="fr">Fax: </AtrNombre><AtrNombreLectura xml:lang="fr">Fax: </AtrNombreLectura><AtrNombre xml:lang="en">Fax: </AtrNombre><AtrNombreLectura xml:lang="en">Fax: </AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+		</Propiedad>
+		
+		<Propiedad  ID="http://protege.stanford.edu/rdf/HTOv4002#email" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Winery">
+            <AtrNombre xml:lang="es">E-mail: </AtrNombre><AtrNombreLectura xml:lang="es">E-mail: </AtrNombreLectura><AtrNombre xml:lang="de">E-Mail: </AtrNombre><AtrNombreLectura xml:lang="de">E-Mail: </AtrNombreLectura><AtrNombre xml:lang="fr">E-mail: </AtrNombre><AtrNombreLectura xml:lang="fr">E-mail: </AtrNombreLectura><AtrNombre xml:lang="en">E-mail: </AtrNombre><AtrNombreLectura xml:lang="en">E-mail: </AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+		</Propiedad>
+		
+        <Propiedad  ID="http://protege.stanford.edu/rdf/HTOv4002#comment" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Accommodation">
+            <AtrNombre xml:lang="es">Comentarios: </AtrNombre><AtrNombreLectura xml:lang="es"> </AtrNombreLectura><AtrNombre xml:lang="de">Kommentare: </AtrNombre><AtrNombreLectura xml:lang="de"> </AtrNombreLectura><AtrNombre xml:lang="fr">Commentaires: </AtrNombre><AtrNombreLectura xml:lang="fr"> </AtrNombreLectura><AtrNombre xml:lang="en">Comments: </AtrNombre><AtrNombreLectura xml:lang="en"></AtrNombreLectura>
+			<TipoCampo>TextEditor</TipoCampo>		
+        </Propiedad>
+
+        <Propiedad  ID="http://www.eharmonise/2014-03-12#location" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Winery">
+            <AtrNombre></AtrNombre>
+            <AtrNombreLectura></AtrNombreLectura>
+        </Propiedad>
+
+        <Propiedad  ID="http://www.eharmonise/2014-03-12#images" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Winery">
+            <AtrNombre></AtrNombre>
+            <AtrNombreLectura></AtrNombreLectura>
+        </Propiedad>
+		
+		<!--FACILITIES-->		
+		
+		<Propiedad ID="http://www.eharmonise/2014-03-12#facilities" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Winery">
+			<AtrNombre xml:lang="es">Servicios: </AtrNombre><AtrNombreLectura xml:lang="es">Servicios: </AtrNombreLectura><AtrNombre xml:lang="de">Dienstleistungen: </AtrNombre><AtrNombreLectura xml:lang="de">Dienstleistungen: </AtrNombreLectura><AtrNombre xml:lang="fr">Services: </AtrNombre><AtrNombreLectura xml:lang="fr">Services: </AtrNombreLectura><AtrNombre xml:lang="en">Services: </AtrNombre><AtrNombreLectura xml:lang="en">Services: </AtrNombreLectura>
+			<SeleccionEntidad>
+				<NuevaPestanya>false</NuevaPestanya>
+				<TipoSeleccion  MultiIdioma="true">Combo</TipoSeleccion>
+				<Grafo>wineryFacility.owl</Grafo>
+				<UrlTipoEntSolicitada>http://protege.stanford.edu/rdf/HTOv4002#Facility</UrlTipoEntSolicitada>
+				<PropsEntEdicion>
+					<NameProp>http://protege.stanford.edu/rdf/HTOv4002#facilityName</NameProp>
+				</PropsEntEdicion>
+				<PropsEntLectura>
+					<Propiedad ID="http://protege.stanford.edu/rdf/HTOv4002#facilityName" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Facility">
+						<AtrNombreLectura> </AtrNombreLectura>
+					</Propiedad>		
+				</PropsEntLectura>
+			</SeleccionEntidad>
+		</Propiedad>
+		
+        <Propiedad  ID="http://www.eharmonise/2014-03-12#multimedia" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Winery">
+            <AtrNombre></AtrNombre>
+            <AtrNombreLectura></AtrNombreLectura>
+        </Propiedad>
+
+        <Propiedad  ID="http://www.eharmonise/2014-03-12#documents" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Winery">
+            <AtrNombre></AtrNombre>
+            <AtrNombreLectura></AtrNombreLectura>
+        </Propiedad>
+
+		
+		<!--OTRAS PROPIEDADES-->
+		
+		<Propiedad  ID="http://e-tourism.deri.at/ont/e-tourism#hasTimePeriod" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Winery">
+			<AtrNombre xml:lang="es">Fecha de creación: </AtrNombre><AtrNombreLectura xml:lang="es">Fecha de creación: </AtrNombreLectura><AtrNombre xml:lang="de">Datum: </AtrNombre><AtrNombreLectura xml:lang="de">Datum: </AtrNombreLectura><AtrNombre xml:lang="fr">Date d'ajout: </AtrNombre><AtrNombreLectura xml:lang="fr">Date d'ajout: </AtrNombreLectura><AtrNombre xml:lang="en">Date added: </AtrNombre><AtrNombreLectura xml:lang="en">Date added: </AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+		</Propiedad>
+		
+        <Propiedad  ID="http://e-tourism.deri.at/ont/e-tourism#hasOpenHours" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Winery">
+            <AtrNombre xml:lang="es">Horario de visitas: </AtrNombre><AtrNombreLectura xml:lang="es">Horario de visitas: </AtrNombreLectura><AtrNombre xml:lang="de">Besuchszeiten: </AtrNombre><AtrNombreLectura xml:lang="de">Besuchszeiten: </AtrNombreLectura><AtrNombre xml:lang="fr">Heures de visite: </AtrNombre><AtrNombreLectura xml:lang="fr">Heures de visite: </AtrNombreLectura><AtrNombre xml:lang="en">Visiting hours: </AtrNombre><AtrNombreLectura xml:lang="en">Visiting hours: </AtrNombreLectura>
+		</Propiedad>
+
+        <Propiedad  ID="http://www.eharmonise/2014-03-12#openAtWeekends" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Winery">
+			<AtrNombre xml:lang="es">Abierto en fin de semana: </AtrNombre><AtrNombreLectura xml:lang="es">Abierto en fin de semana: </AtrNombreLectura><AtrNombre xml:lang="de">Geöffnet an Wochenenden: </AtrNombre><AtrNombreLectura xml:lang="de">Geöffnet an Wochenenden: </AtrNombreLectura><AtrNombre xml:lang="fr">Ouvert les week-ends: </AtrNombre><AtrNombreLectura xml:lang="fr">Ouvert les week-ends: </AtrNombreLectura><AtrNombre xml:lang="en">Open at weekends: </AtrNombre><AtrNombreLectura xml:lang="en">Open at weekends: </AtrNombreLectura>
+		</Propiedad>
+		
+		<Propiedad  ID="http://www.eharmonise/2014-03-12#hasShop" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Winery">
+            <AtrNombre xml:lang="es">Tienda: </AtrNombre><AtrNombreLectura xml:lang="es">Tienda: </AtrNombreLectura><AtrNombre xml:lang="de">Shop: </AtrNombre><AtrNombreLectura xml:lang="de">Shop: </AtrNombreLectura><AtrNombre xml:lang="fr">Shop: </AtrNombre><AtrNombreLectura xml:lang="fr">Shop: </AtrNombreLectura><AtrNombre xml:lang="en">Shop: </AtrNombre><AtrNombreLectura xml:lang="en">Shop: </AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+		</Propiedad>
+		
+        <Propiedad  ID="http://www.eharmonise/2014-03-12#tastingCourses" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Winery">
+            <AtrNombre xml:lang="es">Cursos de cata: </AtrNombre><AtrNombreLectura xml:lang="es">Cursos de cata: </AtrNombreLectura><AtrNombre xml:lang="de">Tastings: </AtrNombre><AtrNombreLectura xml:lang="de">Tastings: </AtrNombreLectura><AtrNombre xml:lang="fr">Tastings: </AtrNombre><AtrNombreLectura xml:lang="fr">Tastings: </AtrNombreLectura><AtrNombre xml:lang="en">Tasting courses: </AtrNombre><AtrNombreLectura xml:lang="en">Tasting courses: </AtrNombreLectura>
+		</Propiedad>
+
+        <Propiedad  ID="http://www.eharmonise/2014-03-12#accommodationAtWinery" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Winery">
+            <AtrNombre xml:lang="es">Alojamiento en bodega: </AtrNombre><AtrNombreLectura xml:lang="es">Alojamiento en bodega: </AtrNombreLectura><AtrNombre xml:lang="de">Unterkunft im Weingut: </AtrNombre><AtrNombreLectura xml:lang="de">Unterkunft im Weingut: </AtrNombreLectura><AtrNombre xml:lang="fr">Hébergement à l'établissement vinicole: </AtrNombre><AtrNombreLectura xml:lang="fr">Hébergement à l'établissement vinicole: </AtrNombreLectura><AtrNombre xml:lang="en">Accommodation at winery: </AtrNombre><AtrNombreLectura xml:lang="en">Accommodation at winery: </AtrNombreLectura>
+		</Propiedad>
+		
+        <Propiedad  ID="http://www.eharmonise/2014-03-12#minMaxGroup" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Winery">
+            <AtrNombre xml:lang="es">Grupo min/máx: </AtrNombre><AtrNombreLectura xml:lang="es">Grupo min/max: </AtrNombreLectura><AtrNombre xml:lang="de">Gruppe min / max: </AtrNombre><AtrNombreLectura xml:lang="de">Gruppe min / max: </AtrNombreLectura><AtrNombre xml:lang="fr">Groupe de min / max: </AtrNombre><AtrNombreLectura xml:lang="fr">Groupe de min / max: </AtrNombreLectura><AtrNombre xml:lang="en">Group min / max: </AtrNombre><AtrNombreLectura xml:lang="en">Group min / max: </AtrNombreLectura>
+		</Propiedad>
+
+		<Propiedad  ID="http://www.eharmonise/2014-03-12#languages" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Winery">
+            <AtrNombre xml:lang="es">Idiomas: </AtrNombre><AtrNombreLectura xml:lang="es">Idiomas: </AtrNombreLectura><AtrNombre xml:lang="de">Sprachen: </AtrNombre><AtrNombreLectura xml:lang="de">Sprachen: </AtrNombreLectura><AtrNombre xml:lang="fr">Langues: </AtrNombre><AtrNombreLectura xml:lang="fr">Langues: </AtrNombreLectura><AtrNombre xml:lang="en">Languages: </AtrNombre><AtrNombreLectura xml:lang="en">Languages: </AtrNombreLectura>
+			<SeleccionEntidad>
+				<TipoSeleccion MultiIdioma="true">Combo</TipoSeleccion>
+				<Grafo>multilangproperty.owl</Grafo>
+				<UrlPropiedad>http://www.multilang-property/20140324#filter</UrlPropiedad>
+				<UrlTipoEntSolicitada>harmonise:languages</UrlTipoEntSolicitada>
+				<TextoElemento0>Selecciona un idioma:</TextoElemento0>
+				<PropsEntEdicion>
+					<NameProp>http://www.multilang-property/20140324#textValue</NameProp>
+				</PropsEntEdicion>
+				<PropsEntLectura>
+					<Propiedad ID="http://www.multilang-property/20140324#textValue" EntidadID="http://www.multilang-property/20140324#Translation">
+					<AtrNombreLectura xml:lang="es"></AtrNombreLectura>
+				</Propiedad>
+				</PropsEntLectura>
+			</SeleccionEntidad>
+        </Propiedad>
+		
+		<!--IMAGE-->
+		
+		<Propiedad  ID="http://www.eharmonise/2014-03-12#image" EntidadID="http://www.eharmonise/2014-03-12#Image">
+			<AtrNombre xml:lang="es">Añadir la imagen: </AtrNombre><AtrNombre xml:lang="de">Fügen Sie das Bild: </AtrNombre><AtrNombre xml:lang="fr">Ajouter l'image: </AtrNombre><AtrNombre xml:lang="en">Add the image: </AtrNombre>
+			<AtrNombreLectura xml:lang="es"></AtrNombreLectura><AtrNombreLectura xml:lang="de"></AtrNombreLectura><AtrNombreLectura xml:lang="fr"></AtrNombreLectura><AtrNombreLectura xml:lang="en"></AtrNombreLectura>
+			<TipoCampo>Imagen</TipoCampo>
+			<ImgMiniVP>
+				<Size>
+					<Ancho>300</Ancho>
+					<Alto>300000</Alto>
+				</Size>				
+				<Size>
+					<Ancho>660</Ancho>
+					<Alto>300000</Alto>
+				</Size>
+			</ImgMiniVP>
+			<UsarJcrop></UsarJcrop>
+			<MultiIdioma>false</MultiIdioma>
+        </Propiedad>
+		
+		 <Propiedad  ID="http://www.eharmonise/2014-03-12#imageUrl" EntidadID="http://www.eharmonise/2014-03-12#Image">
+            <AtrNombre xml:lang="es">Url del enlace: http:// </AtrNombre><AtrNombre xml:lang="de">URL link: http:// </AtrNombre><AtrNombre xml:lang="fr">Lien url: http:// </AtrNombre><AtrNombre xml:lang="en">Url link: http:// </AtrNombre>
+			<AtrNombreLectura xml:lang="es"></AtrNombreLectura><AtrNombreLectura xml:lang="de"></AtrNombreLectura><AtrNombreLectura xml:lang="fr"></AtrNombreLectura><AtrNombreLectura xml:lang="en"></AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+		</Propiedad>
+		
+         <Propiedad  ID="http://www.eharmonise/2014-03-12#title" EntidadID="http://www.eharmonise/2014-03-12#Image">
+            <AtrNombre xml:lang="es">Título / Alt: </AtrNombre><AtrNombre xml:lang="de">Título / Alt: </AtrNombre><AtrNombre xml:lang="fr">Titre / Alt: </AtrNombre><AtrNombre xml:lang="en">Title / Alt: </AtrNombre>
+		    <AtrNombreLectura xml:lang="es"></AtrNombreLectura><AtrNombreLectura xml:lang="de"></AtrNombreLectura><AtrNombreLectura xml:lang="fr"></AtrNombreLectura><AtrNombreLectura xml:lang="en"></AtrNombreLectura>
+		</Propiedad>
+	 
+        <Propiedad  ID="http://www.eharmonise/2014-03-12#footer" EntidadID="http://www.eharmonise/2014-03-12#Image">
+            <AtrNombre xml:lang="es">Pie de la foto: </AtrNombre><AtrNombre xml:lang="de">Bildunterschrift: </AtrNombre><AtrNombre xml:lang="fr">Légende de la photo: </AtrNombre><AtrNombre xml:lang="en">Caption : </AtrNombre>
+			<AtrNombreLectura xml:lang="es"></AtrNombreLectura><AtrNombreLectura xml:lang="de"></AtrNombreLectura><AtrNombreLectura xml:lang="fr"></AtrNombreLectura><AtrNombreLectura xml:lang="en"></AtrNombreLectura>
+		</Propiedad>
+ 
+        <Propiedad  ID="http://www.eharmonise/2014-03-12#mainImage" EntidadID="http://www.eharmonise/2014-03-12#Image">
+            <AtrNombre xml:lang="es">Imagen Principal: </AtrNombre><AtrNombre xml:lang="de">Main Image: </AtrNombre><AtrNombre xml:lang="fr">Main Image: </AtrNombre><AtrNombre xml:lang="en">Main Image: </AtrNombre>
+            <AtrNombreLectura xml:lang="es"></AtrNombreLectura><AtrNombreLectura xml:lang="de"></AtrNombreLectura><AtrNombreLectura xml:lang="fr"></AtrNombreLectura><AtrNombreLectura xml:lang="en"></AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+		</Propiedad>
+		
+		
+		<!--PROFILES-->
+		
+     	<Propiedad  ID="http://www.eharmonise/2014-03-12#profiles" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Winery">
+            <AtrNombre></AtrNombre>
+            <AtrNombreLectura></AtrNombreLectura>
+        </Propiedad>		
+		
+	 	<Propiedad ID="http://www.eharmonise/2014-03-12#profile" EntidadID="http://www.eharmonise/2014-03-12#ValueProfile">
+			<AtrNombre></AtrNombre>
+			<AtrNombreLectura></AtrNombreLectura>
+			<SeleccionEntidad>
+				<NuevaPestanya>false</NuevaPestanya>
+				<TipoSeleccion  MultiIdioma="true">Combo</TipoSeleccion>
+				<Grafo>wineryProfile.owl</Grafo>
+				<UrlTipoEntSolicitada>http://protege.stanford.edu/rdf/HTOv4002#Profile</UrlTipoEntSolicitada>
+				<PropsEntEdicion>
+					<NameProp>http://protege.stanford.edu/rdf/HTOv4002#profileName</NameProp>
+				</PropsEntEdicion>
+				<PropsEntLectura>
+					<Propiedad ID="http://protege.stanford.edu/rdf/HTOv4002#profileName" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Profile">
+						<AtrNombreLectura> </AtrNombreLectura>
+					</Propiedad>		
+				</PropsEntLectura>
+			</SeleccionEntidad>
+		</Propiedad>	
+				
+        <Propiedad  ID="http://www.eharmonise/2014-03-12#profileValue" EntidadID="http://www.eharmonise/2014-03-12#ValueProfile">
+			<AtrNombre></AtrNombre>
+            <AtrNombreLectura></AtrNombreLectura>
+        </Propiedad>		
+		
+			
+		<!--LOCATION-->
+		
+		<Propiedad  ID="http://www.geonames.org/ontology#name" EntidadID="http://www.eharmonise/2014-03-12#Location">
+			<AtrNombre xml:lang="es">Título: </AtrNombre><AtrNombre xml:lang="de">Titel: </AtrNombre><AtrNombre xml:lang="fr">Titre: </AtrNombre><AtrNombre xml:lang="en">Title: </AtrNombre>
+			<AtrNombreLectura xml:lang="es"></AtrNombreLectura><AtrNombreLectura xml:lang="de"></AtrNombreLectura><AtrNombreLectura xml:lang="fr"></AtrNombreLectura><AtrNombreLectura xml:lang="en"></AtrNombreLectura>
+		</Propiedad>
+		
+		<Propiedad  ID="http://www.eharmonise/2014-03-12#subtitle" EntidadID="http://www.eharmonise/2014-03-12#Location">
+           	<AtrNombre xml:lang="es">Subtítulo: </AtrNombre><AtrNombre xml:lang="de">Untertitel: </AtrNombre><AtrNombre xml:lang="fr">sous-titre: </AtrNombre><AtrNombre xml:lang="en">Subtitle: </AtrNombre>
+            <AtrNombreLectura xml:lang="es"></AtrNombreLectura><AtrNombreLectura xml:lang="de"></AtrNombreLectura><AtrNombreLectura xml:lang="fr"></AtrNombreLectura><AtrNombreLectura xml:lang="en"></AtrNombreLectura>
+		</Propiedad>
+		
+        <Propiedad  ID="http://www.eharmonise/2014-03-12#description" EntidadID="http://www.eharmonise/2014-03-12#Location">
+			<AtrNombre xml:lang="es">Descripción: </AtrNombre><AtrNombre xml:lang="de">Beschreibung: </AtrNombre><AtrNombre xml:lang="fr">Description: </AtrNombre><AtrNombre xml:lang="en">Description: </AtrNombre>
+            <AtrNombreLectura xml:lang="es"></AtrNombreLectura><AtrNombreLectura xml:lang="de"></AtrNombreLectura><AtrNombreLectura xml:lang="fr"></AtrNombreLectura><AtrNombreLectura xml:lang="en"></AtrNombreLectura>
+			<TipoCampo>TextEditor</TipoCampo>
+        </Propiedad>
+
+        <Propiedad  ID="http://www.w3.org/2003/01/geo/wgs84_pos#lat" EntidadID="http://www.eharmonise/2014-03-12#Location">
+			<AtrNombre xml:lang="es">Latitud: </AtrNombre><AtrNombre xml:lang="de">Breite: </AtrNombre><AtrNombre xml:lang="fr">Latitude: </AtrNombre><AtrNombre xml:lang="en">Latitude: </AtrNombre>
+            <AtrNombreLectura xml:lang="es"></AtrNombreLectura><AtrNombreLectura xml:lang="de"></AtrNombreLectura><AtrNombreLectura xml:lang="fr"></AtrNombreLectura><AtrNombreLectura xml:lang="en"></AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+		</Propiedad>
+		
+        <Propiedad  ID="http://www.w3.org/2003/01/geo/wgs84_pos#long" EntidadID="http://www.eharmonise/2014-03-12#Location">
+           	<AtrNombre xml:lang="es">Longitud: </AtrNombre><AtrNombre xml:lang="de">Länge: </AtrNombre><AtrNombre xml:lang="fr">Longueur: </AtrNombre><AtrNombre xml:lang="en">Longitude: </AtrNombre>
+            <AtrNombreLectura xml:lang="es"></AtrNombreLectura><AtrNombreLectura xml:lang="de"></AtrNombreLectura><AtrNombreLectura xml:lang="fr"></AtrNombreLectura><AtrNombreLectura xml:lang="en"></AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+		</Propiedad>
+      
+		
+		<!--MULTIMEDIA-->
+		
+		<Propiedad  ID="http://www.eharmonise/2014-03-12#multiMediaName" EntidadID="http://www.eharmonise/2014-03-12#MultiMedia">
+			<AtrNombre xml:lang="es">Título: </AtrNombre><AtrNombre xml:lang="de">Titel: </AtrNombre><AtrNombre xml:lang="fr">Titre: </AtrNombre><AtrNombre xml:lang="en">Title: </AtrNombre>
+            <AtrNombreLectura xml:lang="es"></AtrNombreLectura><AtrNombreLectura xml:lang="de"></AtrNombreLectura><AtrNombreLectura xml:lang="fr"></AtrNombreLectura><AtrNombreLectura xml:lang="en"></AtrNombreLectura>
+		</Propiedad>
+		
+		<Propiedad  ID="http://www.eharmonise/2014-03-12#multimediaFile" EntidadID="http://www.eharmonise/2014-03-12#MultiMedia">
+			<AtrNombre xml:lang="es">Archivo: </AtrNombre><AtrNombre xml:lang="de">Archivieren: </AtrNombre><AtrNombre xml:lang="fr">Archives: </AtrNombre><AtrNombre xml:lang="en">Archive: </AtrNombre>
+			<AtrNombreLectura xml:lang="es"></AtrNombreLectura><AtrNombreLectura xml:lang="de"></AtrNombreLectura><AtrNombreLectura xml:lang="fr"></AtrNombreLectura><AtrNombreLectura xml:lang="en"></AtrNombreLectura>
+			<TipoCampo>Archivo</TipoCampo>
+			<MultiIdioma>false</MultiIdioma>
+        </Propiedad>
+		
+    	
+		<!--PROPIEDADES DE DOCUMENTOS-->
+		
+        <Propiedad  ID="http://purl.org/vocab/frbr/core#p3096_has_access_address" EntidadID="http://www.eharmonise/2014-03-12#Document">
+            <AtrNombre xml:lang="es">Selección fichero: </AtrNombre><AtrNombre xml:lang="de">Dateiauswahl: </AtrNombre><AtrNombre xml:lang="fr">La sélection de fichier: </AtrNombre><AtrNombre xml:lang="en">File selection: </AtrNombre>
+            <AtrNombreLectura xml:lang="es"></AtrNombreLectura><AtrNombreLectura xml:lang="de"></AtrNombreLectura><AtrNombreLectura xml:lang="fr"></AtrNombreLectura><AtrNombreLectura xml:lang="en"></AtrNombreLectura>
+			<TipoCampo>Archivo</TipoCampo>
+			<MultiIdioma>false</MultiIdioma>
+        </Propiedad>
+		
+        <Propiedad  ID="http://purl.org/vocab/frbr/core#p3020_has_title_of_the_manifestation" EntidadID="http://www.eharmonise/2014-03-12#Document">
+			<AtrNombre xml:lang="es">Título: </AtrNombre><AtrNombre xml:lang="de">Titel: </AtrNombre><AtrNombre xml:lang="fr">Titre: </AtrNombre><AtrNombre xml:lang="en">Title: </AtrNombre>
+            <AtrNombreLectura xml:lang="es"></AtrNombreLectura><AtrNombreLectura xml:lang="de"></AtrNombreLectura><AtrNombreLectura xml:lang="fr"></AtrNombreLectura><AtrNombreLectura xml:lang="en"></AtrNombreLectura>
+		</Propiedad>
+		
+
+		<!--PRICE-->
+        
+        <Propiedad  ID="http://www.eharmonise/2014-03-12#price" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Winery">
+           <AtrNombre xml:lang="es">Precios (€): </AtrNombre><AtrNombreLectura xml:lang="es">Precios (€): </AtrNombreLectura><AtrNombre xml:lang="de">Preise (€): </AtrNombre><AtrNombreLectura xml:lang="de">Preise (€): </AtrNombreLectura><AtrNombre xml:lang="fr">Prix (€): </AtrNombre><AtrNombreLectura xml:lang="fr">Prix (€): </AtrNombreLectura><AtrNombre xml:lang="en">Prices (€): </AtrNombre><AtrNombreLectura xml:lang="en">Prices (€): </AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+		</Propiedad>
+    </EspefPropiedad>
+	
+	
+    <EspefEntidad>	
+	<!--BODEGAS-->
+        <Entidad  ID="http://protege.stanford.edu/rdf/HTOv4002#Winery">
+            <AtrNombre xml:lang="es">Bodega</AtrNombre><AtrNombreLectura xml:lang="es">Bodega</AtrNombreLectura>
+			<AtrNombre xml:lang="de">Weinkeller</AtrNombre><AtrNombreLectura xml:lang="de">Weinkeller</AtrNombreLectura>
+			<AtrNombre xml:lang="fr">Cave à vin</AtrNombre><AtrNombreLectura xml:lang="fr">Cave à vin</AtrNombreLectura>
+			<AtrNombre xml:lang="en">Winery</AtrNombre><AtrNombreLectura xml:lang="en">Winery</AtrNombreLectura>
+			<OrdenEntidad>
+                <Grupo class="formtheme02">
+                    <Grupo class="fieldset">
+                        <Grupo Tipo="fieldset" class="mediumLabels">
+						    <NameProp>http://protege.stanford.edu/rdf/HTOv4002#name</NameProp>
+							<NameProp>http://protege.stanford.edu/rdf/HTOv4002#shortDescription</NameProp>	
+						</Grupo>
+					</Grupo>
+				</Grupo>
+				
+				<Grupo class="formtheme02">
+                    <Grupo class="fieldset">                     
+                            <NameProp>http://protege.stanford.edu/rdf/HTOv4002#longDescription</NameProp>
+					</Grupo>
+				</Grupo>
+				
+			    <Grupo class="formtheme02">
+                    <Grupo class="fieldset">
+                        <Grupo Tipo="fieldset" class="mediumLabels">
+                            
+							<NameProp>http://protege.stanford.edu/rdf/HTOv4002#url</NameProp> 
+							<NameProp>http://www.eharmonise/2014-03-12#facebook</NameProp> 
+							<NameProp>http://www.eharmonise/2014-03-12#youtube</NameProp> 
+							<NameProp>http://www.eharmonise/2014-03-12#twitter</NameProp> 
+                            <NameProp>http://www.eharmonise/2014-03-12#googlePlus</NameProp> 
+							<NameProp>http://www.eharmonise/2014-03-12#instagram</NameProp> 
+							<NameProp>http://www.eharmonise/2014-03-12#pinterest</NameProp> 
+							<NameProp>http://www.eharmonise/2014-03-12#flickr</NameProp> 
+											
+						</Grupo>
+                    </Grupo>
+                </Grupo>
+
+				<Grupo class="formtheme02">
+                    <Grupo class="fieldset">
+                        <Grupo Tipo="fieldset" class="mediumLabels">
+							<NameProp>http://protege.stanford.edu/rdf/HTOv4002#streetAddress</NameProp>
+							<NameProp>http://protege.stanford.edu/rdf/HTOv4002#city</NameProp> 	
+							<NameProp>http://protege.stanford.edu/rdf/HTOv4002#region</NameProp>
+                            <NameProp>http://protege.stanford.edu/rdf/HTOv4002#telephone</NameProp> 
+							<NameProp>http://protege.stanford.edu/rdf/HTOv4002#fax</NameProp> 
+							<NameProp>http://protege.stanford.edu/rdf/HTOv4002#email</NameProp>
+						</Grupo>
+                    </Grupo>
+                </Grupo>
+
+				<Grupo class="formtheme02">
+                    <Grupo class="fieldset">
+                        <Grupo Tipo="fieldset" class="mediumLabels">
+							<NameProp>http://e-tourism.deri.at/ont/e-tourism#hasTimePeriod</NameProp> 
+                            <NameProp>http://e-tourism.deri.at/ont/e-tourism#hasOpenHours</NameProp> 
+                            <NameProp>http://www.eharmonise/2014-03-12#minMaxGroup</NameProp> 							
+                            <NameProp>http://www.eharmonise/2014-03-12#tastingCourses</NameProp> 							
+                            <NameProp>http://www.eharmonise/2014-03-12#accommodationAtWinery</NameProp> 
+                            <NameProp>http://www.eharmonise/2014-03-12#openAtWeekends</NameProp> 	
+							<NameProp>http://www.eharmonise/2014-03-12#hasShop</NameProp> 
+							<NameProp>http://www.eharmonise/2014-03-12#price</NameProp> 
+							<NameProp>http://www.eharmonise/2014-03-12#languages</NameProp>
+						</Grupo>
+                    </Grupo>
+                </Grupo>
+
+				<Grupo class="formtheme02">
+                    <Grupo class="fieldset">						
+                          <NameProp>http://protege.stanford.edu/rdf/HTOv4002#comment</NameProp> 			
+					</Grupo>
+				</Grupo>
+				
+				<Grupo class="formtheme02">
+                    <Grupo class="fieldset">
+                        <Grupo Tipo="fieldset" class="mediumLabels">
+                            <NameProp>http://www.eharmonise/2014-03-12#profiles</NameProp> 				
+                        </Grupo>
+                    </Grupo>
+                </Grupo>
+				
+				<Grupo class="formtheme02">
+                    <Grupo class="fieldset">
+                        <Grupo Tipo="fieldset" class="mediumLabels">
+                            <NameProp>http://www.eharmonise/2014-03-12#facilities</NameProp> 							
+                        </Grupo>
+                    </Grupo>
+                </Grupo>
+
+
+				<Grupo class="formtheme02">
+                    <Grupo class="fieldset">
+                        <Grupo Tipo="fieldset" class="mediumLabels">
+                            <NameProp>http://www.eharmonise/2014-03-12#images</NameProp> 
+                        </Grupo>
+                    </Grupo>
+                </Grupo>
+
+				<Grupo class="formtheme02">
+                    <Grupo class="fieldset">
+                        <Grupo Tipo="fieldset" class="mediumLabels">
+                            <NameProp>http://www.eharmonise/2014-03-12#multimedia</NameProp> 
+                        </Grupo>
+                    </Grupo>
+                </Grupo>
+
+				<Grupo class="formtheme02">
+                    <NameProp>http://www.eharmonise/2014-03-12#location</NameProp> 
+                </Grupo>
+
+				<Grupo class="formtheme02">
+                    <Grupo class="fieldset">
+                        <Grupo Tipo="fieldset" class="mediumLabels">
+                            <NameProp>http://www.eharmonise/2014-03-12#documents</NameProp> 
+                        </Grupo>
+                    </Grupo>
+                </Grupo>
+				
+			
+            </OrdenEntidad>
+			
+            <OrdenEntidadLectura>			
+				<Grupo classLectura="group content semanticView">			   
+					<Grupo classLectura="contenidoPrincipal">					
+						<Grupo classLectura="group title">
+							<Grupo Tipo="titulo">
+								<NameProp>http://protege.stanford.edu/rdf/HTOv4002#name</NameProp>
+							</Grupo>
+							<Grupo Tipo="subtitulo">
+								<NameProp>http://protege.stanford.edu/rdf/HTOv4002#shortDescription</NameProp>
+							</Grupo>
+						</Grupo>                
+						<Grupo classLectura="group group_images">
+							<AtrNombreGrupo></AtrNombreGrupo>
+							<Grupo classLectura="contentGroup">
+								<NameProp>http://www.eharmonise/2014-03-12#images</NameProp> 
+							</Grupo>
+						</Grupo>
+						<Grupo classLectura="group group_general">
+							<AtrNombreGrupo></AtrNombreGrupo>
+							<Grupo classLectura="contentGroup">
+								<NameProp>http://protege.stanford.edu/rdf/HTOv4002#longDescription</NameProp> 
+							
+							 </Grupo>
+						</Grupo>						
+						
+						<Grupo classLectura="group group_general">
+							<AtrNombreGrupo xml:lang="es">Información adicional:</AtrNombreGrupo><AtrNombreGrupo xml:lang="de">Weitere informationen: </AtrNombreGrupo><AtrNombreGrupo xml:lang="fr">Informations complémentaires: </AtrNombreGrupo><AtrNombreGrupo xml:lang="en">Additional information: </AtrNombreGrupo>
+							<Grupo classLectura="contentGroup">
+								<NameProp>http://protege.stanford.edu/rdf/HTOv4002#comment</NameProp>
+								
+							 </Grupo>
+						</Grupo>
+						
+						<Grupo classLectura="group group_caracteristicas">
+							<AtrNombreGrupo xml:lang="es">Características:</AtrNombreGrupo>
+							<AtrNombreGrupo xml:lang="en">Features:</AtrNombreGrupo>
+							<AtrNombreGrupo xml:lang="fr">Caractéristiques:</AtrNombreGrupo>
+							<AtrNombreGrupo xml:lang="de">Eigenschaften:</AtrNombreGrupo>
+							<Grupo classLectura="contentGroup">
+								 <NameProp>http://www.eharmonise/2014-03-12#profiles</NameProp> 
+							</Grupo>
+						</Grupo>
+
+						<!--<Grupo classLectura="group group_profiles">
+							<AtrNombreGrupo xml:lang="es">Plazas: </AtrNombreGrupo><AtrNombreGrupo xml:lang="de">Schlafmöglichkeiten: </AtrNombreGrupo><AtrNombreGrupo xml:lang="fr">Couchages: </AtrNombreGrupo><AtrNombreGrupo xml:lang="en">Places: </AtrNombreGrupo>
+							<Grupo classLectura="contentGroup">
+								
+							</Grupo>
+						</Grupo>-->
+
+						<Grupo classLectura="group group_facilities">
+							<AtrNombreGrupo xml:lang="es">Servicios e instalaciones: </AtrNombreGrupo><AtrNombreGrupo xml:lang="de">Dienstleistungen: </AtrNombreGrupo><AtrNombreGrupo xml:lang="fr">Services: </AtrNombreGrupo><AtrNombreGrupo xml:lang="en">Services: </AtrNombreGrupo>
+							<Grupo classLectura="contentGroup">
+								<NameProp>http://www.eharmonise/2014-03-12#facilities</NameProp> 							
+							</Grupo>
+						</Grupo>
+						<Grupo classLectura="group group_documents">
+							<AtrNombreGrupo></AtrNombreGrupo>
+							<Grupo classLectura="contentGroup">
+								<NameProp>http://www.eharmonise/2014-03-12#documents</NameProp> 
+							</Grupo>
+						</Grupo>	
+
+						<Grupo classLectura="group group_multimedia">
+							<AtrNombreGrupo></AtrNombreGrupo>
+							<Grupo classLectura="contentGroup">
+								<NameProp>http://www.eharmonise/2014-03-12#multimedia</NameProp> 
+							</Grupo>
+						</Grupo>
+
+						<Grupo classLectura="group group_location">
+							<AtrNombreGrupo></AtrNombreGrupo>
+							<Grupo classLectura="contentGroup">
+								<NameProp>http://www.eharmonise/2014-03-12#location</NameProp> 
+							</Grupo>
+						</Grupo>
+					</Grupo>	
+					
+					<Grupo classLectura="contenidoSecundario">
+						<Grupo classLectura="group group_address">
+							<Grupo classLectura="contentGroup">					  
+								<NameProp>http://protege.stanford.edu/rdf/HTOv4002#streetAddress</NameProp>
+								<NameProp>http://protege.stanford.edu/rdf/HTOv4002#telephone</NameProp>
+								<NameProp>http://protege.stanford.edu/rdf/HTOv4002#fax</NameProp> 
+								<NameProp>http://protege.stanford.edu/rdf/HTOv4002#email</NameProp>
+								<NameProp>http://protege.stanford.edu/rdf/HTOv4002#url</NameProp>
+							</Grupo>	
+							<Grupo classLectura="contentGroup enlacesRedesSociales">
+							<Literal>Síguenos en:</Literal>
+							<Grupo classLectura="comunidadFacebook">
+								<NameProp>http://www.eharmonise/2014-03-12#facebook</NameProp> 
+							</Grupo>
+							<Grupo classLectura="comunidadYoutube">
+								<NameProp>http://www.eharmonise/2014-03-12#youtube</NameProp>
+							</Grupo>	
+							<Grupo classLectura="comunidadTwitter">
+								<NameProp>http://www.eharmonise/2014-03-12#twitter</NameProp>
+							</Grupo>	
+							
+							<Grupo classLectura="comunidadGooglePlus">
+								<NameProp>http://www.eharmonise/2014-03-12#googlePlus</NameProp>
+							</Grupo>
+                            <Grupo classLectura="comunidadInstagram">
+								<NameProp>http://www.eharmonise/2014-03-12#instagram</NameProp> 
+							</Grupo>
+							 <Grupo classLectura="comunidadPinterest">
+								<NameProp>http://www.eharmonise/2014-03-12#pinterest</NameProp> 
+							</Grupo>
+							<Grupo classLectura="comunidadFlickr">
+								<NameProp>http://www.eharmonise/2014-03-12#flickr</NameProp> 
+							</Grupo>
+							</Grupo>
+							<Grupo classLectura="contentGroup">	
+								<NameProp>http://e-tourism.deri.at/ont/e-tourism#hasOpenHours</NameProp>
+								
+								<NameProp>http://www.eharmonise/2014-03-12#openAtWeekends</NameProp> 
+								<NameProp>http://www.eharmonise/2014-03-12#tastingCourses</NameProp>
+								<NameProp>http://www.eharmonise/2014-03-12#minMaxGroup</NameProp>
+								<NameProp>http://www.eharmonise/2014-03-12#price</NameProp> 
+								<NameProp>http://www.eharmonise/2014-03-12#languages</NameProp> 
+								<NameProp>http://protege.stanford.edu/rdf/HTOv4002#city</NameProp> 	
+								<NameProp>http://protege.stanford.edu/rdf/HTOv4002#region</NameProp>
+								
+								<!--<NameProp>http://e-tourism.deri.at/ont/e-tourism#hasTimePeriod</NameProp> 							
+								<NameProp>http://www.eharmonise/2014-03-12#tastingCourses</NameProp> 							
+								<NameProp>http://www.eharmonise/2014-03-12#accommodationAtWinery</NameProp> 	
+								<NameProp>http://www.eharmonise/2014-03-12#hasShop</NameProp>--> 							
+								
+								
+								
+							</Grupo>
+						</Grupo>
+
+												
+					</Grupo>					
+				</Grupo>					
+            </OrdenEntidadLectura>
+        </Entidad>
+		
+	
+   	<!--PROFILE-->		
+        <Entidad  ID="http://www.eharmonise/2014-03-12#ValueProfile">
+            <AtrNombre xml:lang="es">Tipos/Cantidad de: </AtrNombre><AtrNombreLectura xml:lang="es">Tipos/Cantidad de: </AtrNombreLectura><AtrNombre xml:lang="de">Typen/Anzahl: </AtrNombre><AtrNombreLectura xml:lang="de">Typen/Anzahl: </AtrNombreLectura><AtrNombre xml:lang="fr">Type / Nombre de: </AtrNombre><AtrNombreLectura xml:lang="fr">Type / Nombre de: </AtrNombreLectura><AtrNombre xml:lang="en">Type / Number of: </AtrNombre><AtrNombreLectura xml:lang="en">Type / Number of: </AtrNombreLectura>
+            <OrdenEntidad>
+                <Grupo class="formtheme02">
+                    <Grupo class="fieldset">
+                        <Grupo Tipo="fieldset" class="mediumLabels">
+                            <NameProp>http://www.eharmonise/2014-03-12#profile</NameProp> 
+                            <NameProp>http://www.eharmonise/2014-03-12#profileValue</NameProp>
+                        </Grupo>
+                    </Grupo>
+                </Grupo>
+            </OrdenEntidad>
+            <OrdenEntidadLectura>
+                <Grupo classLectura="group content semanticView">
+                    <Grupo classLectura="group group_info">
+                        <AtrNombreGrupo></AtrNombreGrupo>
+                        <Grupo classLectura="contentGroup">
+                            <NameProp>http://www.eharmonise/2014-03-12#profile</NameProp> 
+                            <NameProp>http://www.eharmonise/2014-03-12#profileValue</NameProp>
+                        </Grupo>
+                    </Grupo>
+                </Grupo>
+            </OrdenEntidadLectura>
+        </Entidad>
+
+		
+		<!--IMAGE-->		
+		<Entidad  ID="http://www.eharmonise/2014-03-12#Image">
+            <AtrNombre xml:lang="es">Galería de imágenes: </AtrNombre><AtrNombreLectura xml:lang="es">Galería de imágenes: </AtrNombreLectura><AtrNombre xml:lang="de">Gallery: </AtrNombre><AtrNombreLectura xml:lang="de">Gallery: </AtrNombreLectura><AtrNombre xml:lang="fr">Galerie: </AtrNombre><AtrNombreLectura xml:lang="fr">Galerie: </AtrNombreLectura><AtrNombre xml:lang="en">Gallery: </AtrNombre><AtrNombreLectura xml:lang="en">Gallery: </AtrNombreLectura>
+            <OrdenEntidad>
+                <Grupo class="formtheme02">
+                    <Grupo class="fieldset">
+                        <Grupo Tipo="fieldset" class="mediumLabels">
+                            <NameProp>http://www.eharmonise/2014-03-12#image</NameProp> 
+                            <NameProp>http://www.eharmonise/2014-03-12#imageUrl</NameProp> 
+                            <NameProp>http://www.eharmonise/2014-03-12#title</NameProp>							
+                            <NameProp>http://www.eharmonise/2014-03-12#footer</NameProp> 
+							 <NameProp>http://www.eharmonise/2014-03-12#mainImage</NameProp> 
+                        </Grupo>
+                    </Grupo>
+                </Grupo>
+            </OrdenEntidad>
+            <OrdenEntidadLectura>                
+                <Grupo classLectura="group content semanticView">
+                    <Grupo classLectura="group group_info">
+                        <AtrNombreGrupo></AtrNombreGrupo>
+                        <Grupo classLectura="contentGroup">
+                            <NameProp SizeFoto="660">http://www.eharmonise/2014-03-12#image</NameProp>
+							<NameProp>http://www.eharmonise/2014-03-12#imageUrl</NameProp> 
+                            <NameProp>http://www.eharmonise/2014-03-12#title</NameProp>
+                            <NameProp>http://www.eharmonise/2014-03-12#footer</NameProp> 
+							<NameProp>http://www.eharmonise/2014-03-12#mainImage</NameProp> 
+                        </Grupo>
+                    </Grupo>
+                </Grupo>
+            </OrdenEntidadLectura>
+        </Entidad>
+		
+		<!--MULTIMEDIA-->
+        <Entidad  ID="http://www.eharmonise/2014-03-12#MultiMedia">
+            <AtrNombre xml:lang="es">Multimedia: </AtrNombre><AtrNombreLectura xml:lang="es">Multimedia: </AtrNombreLectura><AtrNombre xml:lang="de">Multimedia: </AtrNombre><AtrNombreLectura xml:lang="de">Multimedia: </AtrNombreLectura><AtrNombre xml:lang="fr">Multimédia: </AtrNombre><AtrNombreLectura xml:lang="fr">Multimédia: </AtrNombreLectura><AtrNombre xml:lang="en">Multimedia: </AtrNombre><AtrNombreLectura xml:lang="en">Multimedia: </AtrNombreLectura>
+            <OrdenEntidad>
+                <Grupo class="formtheme02">
+                    <Grupo class="fieldset">
+                        <Grupo Tipo="fieldset" class="mediumLabels">
+						    <NameProp>http://www.eharmonise/2014-03-12#multiMediaName</NameProp>
+							<NameProp>http://www.eharmonise/2014-03-12#multimediaFile</NameProp>
+                            
+                        </Grupo>
+                    </Grupo>
+                </Grupo>
+            </OrdenEntidad>
+            <OrdenEntidadLectura>
+                <Grupo classLectura="group content semanticView">
+                    <Grupo classLectura="group group_info">
+                        <AtrNombreGrupo></AtrNombreGrupo>
+                        <Grupo classLectura="contentGroup">
+							<NameProp>http://www.eharmonise/2014-03-12#multiMediaName</NameProp>
+                            <NameProp>http://www.eharmonise/2014-03-12#multimediaFile</NameProp> 
+                            
+                        </Grupo>
+                    </Grupo>
+                </Grupo>
+            </OrdenEntidadLectura>
+        </Entidad>
+
+		<!--LOCATION-->		
+        <Entidad  ID="http://www.eharmonise/2014-03-12#Location">
+            <AtrNombre xml:lang="es">Mapa: </AtrNombre><AtrNombreLectura xml:lang="es">Mapa: </AtrNombreLectura><AtrNombre xml:lang="de">Karte: </AtrNombre><AtrNombreLectura xml:lang="de">Karte: </AtrNombreLectura><AtrNombre xml:lang="fr">Carte: </AtrNombre><AtrNombreLectura xml:lang="fr">Carte: </AtrNombreLectura><AtrNombre xml:lang="en">Map: </AtrNombre><AtrNombreLectura xml:lang="en">Map: </AtrNombreLectura>
+            <OrdenEntidad>
+				<Grupo class="formtheme02">
+                    <Grupo class="fieldset">                     
+                            <NameProp>http://www.eharmonise/2014-03-12#description</NameProp> 
+					</Grupo>
+				</Grupo>				
+                <Grupo class="formtheme02">
+                    <Grupo class="fieldset">
+                        <Grupo Tipo="fieldset" class="mediumLabels">
+                            <NameProp>http://www.eharmonise/2014-03-12#subtitle</NameProp> 
+                            <NameProp>http://www.w3.org/2003/01/geo/wgs84_pos#lat</NameProp> 
+                            <NameProp>http://www.w3.org/2003/01/geo/wgs84_pos#long</NameProp> 
+                            <NameProp>http://www.geonames.org/ontology#name</NameProp>
+                        </Grupo>
+                    </Grupo>
+                </Grupo>
+            </OrdenEntidad>
+            <OrdenEntidadLectura>
+                <Grupo classLectura="group content semanticView">
+                    <Grupo classLectura="group group_info">
+                        <AtrNombreGrupo></AtrNombreGrupo>
+                        <Grupo classLectura="contentGroup">
+                            <NameProp>http://www.eharmonise/2014-03-12#description</NameProp> 
+                            <NameProp>http://www.eharmonise/2014-03-12#subtitle</NameProp> 
+                            <NameProp>http://www.w3.org/2003/01/geo/wgs84_pos#lat</NameProp> 
+                            <NameProp>http://www.w3.org/2003/01/geo/wgs84_pos#long</NameProp> 
+                            <NameProp>http://www.geonames.org/ontology#name</NameProp>
+                        </Grupo>
+                    </Grupo>
+                </Grupo>
+            </OrdenEntidadLectura>
+			 <MapaGoogle lat="http://www.w3.org/2003/01/geo/wgs84_pos#lat" long="http://www.w3.org/2003/01/geo/wgs84_pos#long"></MapaGoogle>
+	   </Entidad>
+		
+		<!--DOCUMENT-->       
+	   <Entidad  ID="http://www.eharmonise/2014-03-12#Document">
+            <AtrNombre xml:lang="es">Documentos: </AtrNombre><AtrNombreLectura xml:lang="es">Documentos: </AtrNombreLectura><AtrNombre xml:lang="de">Dokumente: </AtrNombre><AtrNombreLectura xml:lang="de">Dokumente: </AtrNombreLectura><AtrNombre xml:lang="fr">Documents: </AtrNombre><AtrNombreLectura xml:lang="fr">Documents: </AtrNombreLectura><AtrNombre xml:lang="en">Documents: </AtrNombre><AtrNombreLectura xml:lang="en">Documents: </AtrNombreLectura>
+            <OrdenEntidad>
+                <Grupo class="formtheme02">
+                    <Grupo class="fieldset">
+                        <Grupo Tipo="fieldset" class="mediumLabels">
+                            <NameProp>http://purl.org/vocab/frbr/core#p3096_has_access_address</NameProp> 
+                            <NameProp>http://purl.org/vocab/frbr/core#p3020_has_title_of_the_manifestation</NameProp>
+                        </Grupo>
+                    </Grupo>
+                </Grupo>
+            </OrdenEntidad>
+            <OrdenEntidadLectura>
+                <Grupo classLectura="group content semanticView">
+                    <Grupo classLectura="group group_info">
+                        <AtrNombreGrupo></AtrNombreGrupo>
+                        <Grupo classLectura="contentGroup">
+                            <NameProp>http://purl.org/vocab/frbr/core#p3096_has_access_address</NameProp> 
+                            <NameProp>http://purl.org/vocab/frbr/core#p3020_has_title_of_the_manifestation</NameProp>
+                        </Grupo>
+                    </Grupo>
+                </Grupo>
+            </OrdenEntidadLectura>
+        </Entidad>
+		
+    </EspefEntidad>
+</config>

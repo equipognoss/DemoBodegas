@@ -1,0 +1,276 @@
+<config>
+	<ConfiguracionGeneral>
+		<namespace>rtpath</namespace>
+		<idiomasOnto>
+			<idiomaOnto>es</idiomaOnto>
+		</idiomasOnto>
+		<ocultarTituloDescpImgDoc></ocultarTituloDescpImgDoc>
+		<TituloDoc EntidadID="http://www.eroute/2014-04-28#Path">http://www.eroute/2014-04-28#pathName</TituloDoc>
+		<DescripcionDoc EntidadID="http://www.eroute/2014-04-28#Path">http://www.eroute/2014-04-28#pathFeature</DescripcionDoc>
+		<HtmlNuevo>true</HtmlNuevo>
+		<IncluirIconoGnoss></IncluirIconoGnoss>
+		<CategorizacionTesauroGnossObligatoria>false</CategorizacionTesauroGnossObligatoria>
+		<MultiIdioma> </MultiIdioma>
+		<OcultarEditoresDoc></OcultarEditoresDoc>
+		<GruposEditoresFijos><Grupo Organizacion="lariojaturismo">editoreslrt</Grupo></GruposEditoresFijos>
+		<OcultarPublicadorDoc></OcultarPublicadorDoc>
+		<OcultarCategoriasDoc></OcultarCategoriasDoc>
+		<OcultarEtiquetasDoc></OcultarEtiquetasDoc>
+		<OcultarVisitasDoc></OcultarVisitasDoc>
+		 <MetasPagina xml:lang="es">
+            <meta name="keywords" content="ruta, rutas, sendero, senderos" />
+        </MetasPagina>        
+        <MetasPagina xml:lang="en">
+            <meta name="keywords" content="path, paths, Footpath, Footpaths" />
+        </MetasPagina>
+		
+		<TituloPagina>
+			<Propiedad ID="http://www.eroute/2014-04-28#pathName" EntidadID="http://www.eroute/2014-04-28#Path"></Propiedad>
+			<Literal> - </Literal>
+			<Literal>Ruta@es|||Phat@en|||</Literal>	
+		</TituloPagina>
+	</ConfiguracionGeneral>
+	<EspefPropiedad>
+		<Propiedad  ID="http://protege.stanford.edu/rdf/HTOv4002#city" EntidadID="http://www.eroute/2014-04-28#Path">
+			<AtrNombre>Ciudad:</AtrNombre>
+			<AtrNombreLectura>Ciudad</AtrNombreLectura>
+			<SeleccionEntidad>
+				<TipoSeleccion MultiIdioma="true">Autocompletar</TipoSeleccion>
+				<NuevaPestanya>false</NuevaPestanya>
+				<Grafo>destination.owl</Grafo>
+				<LinkARecurso IrAComunidad="true"></LinkARecurso>
+				<UrlTipoEntSolicitada>http://www.eharmonise/2014-03-12#Destination</UrlTipoEntSolicitada>
+				<PropsEntEdicion>
+					<NameProp>http://protege.stanford.edu/rdf/HTOv4002#name</NameProp>
+				</PropsEntEdicion>
+				<PropsEntLectura>
+					<Propiedad ID="http://protege.stanford.edu/rdf/HTOv4002#name" EntidadID="http://www.eharmonise/2014-03-12#Destination">
+						<AtrNombreLectura></AtrNombreLectura>						
+					</Propiedad>					
+				</PropsEntLectura>
+				<Consulta><![CDATA[select distinct ?s ?p ?name  from  <http://lariojaturismo.gnoss.com/destination.owl>  
+WHERE {  ?s ?p ?name. FILTER (?p=<http://protege.stanford.edu/rdf/HTOv4002#name>) } order by ?name  ]]></Consulta>
+			</SeleccionEntidad>	
+			<MultiIdioma>false</MultiIdioma>
+		</Propiedad>
+		
+		<Propiedad  ID="http://www.eroute/2014-04-28#hasRoute" EntidadID="http://www.eroute/2014-04-28#Path">
+			<AtrNombre>Etapas:</AtrNombre>
+			<AtrNombreLectura></AtrNombreLectura>
+			<MultiIdioma>true</MultiIdioma>
+			<SeleccionEntidad>
+				
+				<TipoSeleccion MultiIdioma="true">Autocompletar</TipoSeleccion>
+				<NuevaPestanya>false</NuevaPestanya>
+				<Grafo>rtroute.owl</Grafo>
+				<!--<LinkARecurso IrAComunidad="true"></LinkARecurso>-->
+				<LinkARecurso IrAComunidad="true" PropiedadID="http://www.eroute/2014-04-28#routeName"></LinkARecurso>
+				<UrlTipoEntSolicitada>http://www.obertadecatalunya/route#Route</UrlTipoEntSolicitada>
+				<PropsEntEdicion>
+					<NameProp>http://www.eroute/2014-04-28#routeName</NameProp>
+					<NameProp>http://www.eroute/2014-04-28#routeNumber</NameProp>
+				</PropsEntEdicion>
+				<PropsEntLectura>
+					<Propiedad ID="http://www.eroute/2014-04-28#routeName" EntidadID="http://www.obertadecatalunya/route#Route">
+						<AtrNombreLectura></AtrNombreLectura>						
+					</Propiedad>
+					<Propiedad ID="http://www.eroute/2014-04-28#description" EntidadID="http://www.obertadecatalunya/route#Route">
+						<AtrNombreLectura></AtrNombreLectura>
+							<TipoCampo>TextEditor</TipoCampo>
+					</Propiedad>
+					
+					<Propiedad ID="http://www.eroute/2014-04-28#routeNumber" EntidadID="http://www.obertadecatalunya/route#Route">
+						<AtrNombreLectura></AtrNombreLectura>						
+					</Propiedad>
+						
+					<Propiedad  ID="http://www.eroute/2014-04-28#hasLandmark" EntidadID="http://www.obertadecatalunya/route#Route">
+						<AtrNombre xml:lang="es">Puntos de interés</AtrNombre>
+						<AtrNombreLectura xml:lang="es"></AtrNombreLectura>
+						<SeleccionEntidad>
+							<TipoSeleccion MultiIdioma="true">Autocompletar</TipoSeleccion>							
+							<NuevaPestanya>false</NuevaPestanya>
+							<Grafo>rtlandmark.owl</Grafo>
+							<LinkARecurso IrAComunidad="true"></LinkARecurso>
+							<UrlTipoEntSolicitada>http://www.eroute/2014-04-28#Landmark</UrlTipoEntSolicitada>
+							<PropsEntLectura>
+								<Propiedad ID="http://www.eroute/2014-04-28#landmarkName" EntidadID="http://www.eroute/2014-04-28#Landmark">
+									<AtrNombreLectura></AtrNombreLectura>						
+								</Propiedad>
+								
+								
+								<Propiedad ID="http://www.eharmonise/2014-03-12#image" EntidadID="http://www.eroute/2014-04-28#Landmark">
+									<TipoCampo>Imagen</TipoCampo>
+									<ImgMiniVP>
+										<Size>				
+											<Alto>300</Alto>
+										</Size>	
+									</ImgMiniVP>
+									<AtrNombreLectura></AtrNombreLectura>						
+								</Propiedad>						
+							</PropsEntLectura>
+						</SeleccionEntidad>	
+					</Propiedad>
+
+					<Propiedad  ID="http://protege.stanford.edu/rdf/HTOv4002#city" EntidadID="http://www.obertadecatalunya/route#Route">
+						<AtrNombre>Ciudad:</AtrNombre>
+						<AtrNombreLectura>Ciudad</AtrNombreLectura>
+						<SeleccionEntidad>
+							<TipoSeleccion MultiIdioma="true">Autocompletar</TipoSeleccion>
+							<NuevaPestanya>false</NuevaPestanya>
+							<Grafo>destination.owl</Grafo>
+							<LinkARecurso IrAComunidad="true"></LinkARecurso>
+							<UrlTipoEntSolicitada>http://www.eharmonise/2014-03-12#Destination</UrlTipoEntSolicitada>
+							<PropsEntLectura>
+								<Propiedad ID="http://protege.stanford.edu/rdf/HTOv4002#name" EntidadID="http://www.eharmonise/2014-03-12#Destination">
+									<AtrNombreLectura></AtrNombreLectura>						
+								</Propiedad>					
+							</PropsEntLectura>
+						</SeleccionEntidad>	
+					</Propiedad>
+				</PropsEntLectura>
+				<Reciproca></Reciproca>
+			</SeleccionEntidad>	
+		</Propiedad>
+		
+		<Propiedad  ID="http://www.eroute/2014-04-28#pathNaturalValue" EntidadID="http://www.eroute/2014-04-28#Path">
+			<AtrNombre xml:lang="es"></AtrNombre>
+			<AtrNombreLectura xml:lang="es"></AtrNombreLectura>
+			<TipoCampo>TextEditor</TipoCampo>
+		</Propiedad>
+		
+		<Propiedad  ID="http://protege.stanford.edu/rdf/HTOv4002#region" EntidadID="http://www.eroute/2014-04-28#Path">
+			<AtrNombre xml:lang="es">Región</AtrNombre>
+			<AtrNombreLectura xml:lang="es">Región</AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+			<ValoresCombo>	
+				<ValorCombo>Rioja Alta</ValorCombo>		
+				<ValorCombo>Rioja Baja</ValorCombo>		
+				<ValorCombo>Sierra</ValorCombo>	
+				<ValorCombo>Logroño</ValorCombo>	
+			</ValoresCombo>	
+		</Propiedad>
+		
+		<Propiedad  ID="http://www.eroute/2014-04-28#pathFeature" EntidadID="http://www.eroute/2014-04-28#Path">
+			<AtrNombre xml:lang="es"></AtrNombre>
+			<AtrNombreLectura xml:lang="es"></AtrNombreLectura>
+			<TipoCampo>TextEditor</TipoCampo>
+		</Propiedad>
+		
+		<Propiedad  ID="http://www.eroute/2014-04-28#pathType" EntidadID="http://www.eroute/2014-04-28#Path">
+			<AtrNombre xml:lang="es">Tipo:</AtrNombre>
+			<AtrNombreLectura xml:lang="es"></AtrNombreLectura>
+		</Propiedad>
+		
+		<Propiedad  ID="http://www.eroute/2014-04-28#pdf" EntidadID="http://www.eroute/2014-04-28#Path">
+			<AtrNombre xml:lang="es">Documento:</AtrNombre>
+			<AtrNombreLectura xml:lang="es">Documento</AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+			<TipoCampo>Archivo</TipoCampo>
+		</Propiedad>
+		<Propiedad  ID="http://www.eroute/2014-04-28#pathName" EntidadID="http://www.eroute/2014-04-28#Path">
+			<AtrNombre xml:lang="es">Nombre:</AtrNombre>
+			<AtrNombreLectura xml:lang="es"></AtrNombreLectura>
+		</Propiedad>
+		<Propiedad  ID="http://www.eroute/2014-04-28#pathId" EntidadID="http://www.eroute/2014-04-28#Path">
+			<AtrNombre xml:lang="es">ID:</AtrNombre>
+			<AtrNombreLectura xml:lang="es">ID</AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+		</Propiedad>
+	</EspefPropiedad>
+	<EspefEntidad>
+		<Entidad  ID="http://www.eroute/2014-04-28#Path">
+			<AtrNombre>Ruta</AtrNombre>
+			<AtrNombreLectura></AtrNombreLectura>
+
+			<OrdenEntidad>
+				<Grupo class="formtheme02">
+					<Grupo class="fieldset">
+
+						<Grupo Tipo="fieldset" class="mediumLabels">
+							 <NameProp>http://www.eroute/2014-04-28#pathType</NameProp>	 
+							<NameProp>http://www.eroute/2014-04-28#pathName</NameProp> 
+							<NameProp>http://www.eroute/2014-04-28#pathId</NameProp>	       
+						</Grupo>
+					</Grupo>
+					
+					<Grupo class="fieldset">
+
+						<Grupo Tipo="fieldset" class="mediumLabels">
+							<NameProp>http://www.eroute/2014-04-28#pdf</NameProp> 
+							      
+						</Grupo>
+					</Grupo>
+					
+					<Grupo class="fieldset">
+						<Grupo Tipo="fieldset" class="mediumLabels">
+							<NameProp>http://www.eroute/2014-04-28#hasRoute</NameProp>         
+						</Grupo>
+					</Grupo>
+					
+					
+					
+					<Grupo class="fieldset">
+						<AtrNombreGrupo>Características</AtrNombreGrupo>
+						<Grupo Tipo="fieldset" class="mediumLabels">
+							<NameProp>http://www.eroute/2014-04-28#pathFeature</NameProp>       
+						</Grupo>
+					</Grupo>
+					
+					<Grupo class="fieldset">
+						<AtrNombreGrupo>Valores naturales</AtrNombreGrupo>
+						<Grupo Tipo="fieldset" class="mediumLabels">
+							<NameProp>http://www.eroute/2014-04-28#pathNaturalValue</NameProp>      
+						</Grupo>
+					</Grupo>
+					
+					<Grupo class="fieldset">
+
+						<Grupo Tipo="fieldset" class="mediumLabels">
+							 
+							<NameProp>http://protege.stanford.edu/rdf/HTOv4002#city</NameProp>                           
+							<NameProp>http://protege.stanford.edu/rdf/HTOv4002#region</NameProp> 	       
+						</Grupo>
+					</Grupo>
+					
+					
+					
+				</Grupo>
+			</OrdenEntidad>
+			<OrdenEntidadLectura>
+				<Grupo classLectura="group content semanticView">	
+
+					<Grupo classLectura="contentGroup contenidoPrincipal">
+						<Grupo classLectura="group title">
+							<Grupo Tipo="subtitulo">
+								<NameProp>http://www.eroute/2014-04-28#pathType</NameProp> 
+							</Grupo>
+							<Grupo Tipo="titulo">
+
+								<NameProp>http://www.eroute/2014-04-28#pathName</NameProp>
+							</Grupo>
+							<Grupo Tipo="subtitulo">
+								<NameProp>http://www.eroute/2014-04-28#pathFeature</NameProp>
+							</Grupo>
+						</Grupo>
+						<Grupo classLectura="group group_info">
+							<AtrNombreGrupo></AtrNombreGrupo>
+							<Grupo classLectura="contentGroup">
+								<!--<NameProp>http://protege.stanford.edu/rdf/HTOv4002#city</NameProp>
+								<NameProp>http://protege.stanford.edu/rdf/HTOv4002#region</NameProp>-->
+								<NameProp>http://www.eroute/2014-04-28#pdf</NameProp> 	               
+							</Grupo>
+						</Grupo>
+
+					</Grupo>
+					<Grupo classLectura="group group_etapas">
+						<AtrNombreGrupo>Etapas</AtrNombreGrupo>
+						<Grupo classLectura="contentGroup">                   		
+							<NameProp>http://www.eroute/2014-04-28#hasRoute</NameProp>                
+						</Grupo>
+					</Grupo>
+
+				</Grupo>
+			</OrdenEntidadLectura>
+		</Entidad>	
+	</EspefEntidad>
+</config>

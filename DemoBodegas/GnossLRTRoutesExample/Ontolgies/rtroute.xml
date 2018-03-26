@@ -1,0 +1,739 @@
+<config>
+	<ConfiguracionGeneral>
+		<namespace>rtroute</namespace>
+		<idiomasOnto>
+			<idiomaOnto>es</idiomaOnto>
+		</idiomasOnto>
+		<ImagenDoc EntidadID="http://www.eharmonise/2014-03-12#Image">http://www.eharmonise/2014-03-12#image</ImagenDoc>	
+		<ocultarTituloDescpImgDoc></ocultarTituloDescpImgDoc>
+		<TituloDoc EntidadID="http://www.obertadecatalunya/route#Route">http://www.eroute/2014-04-28#routeName</TituloDoc>
+		<DescripcionDoc EntidadID="http://www.obertadecatalunya/route#Route">http://www.eroute/2014-04-28#routeFeature</DescripcionDoc>
+		<HtmlNuevo>true</HtmlNuevo>
+		<IncluirIconoGnoss></IncluirIconoGnoss>
+		<CategorizacionTesauroGnossObligatoria>false</CategorizacionTesauroGnossObligatoria>
+		<GruposEditoresFijos><Grupo Organizacion="lariojaturismo">editoreslrt</Grupo></GruposEditoresFijos>
+		<MultiIdioma> </MultiIdioma>
+		<OcultarEditoresDoc></OcultarEditoresDoc>
+		<OcultarPublicadorDoc></OcultarPublicadorDoc>
+		<OcultarCategoriasDoc></OcultarCategoriasDoc>
+		<OcultarEtiquetasDoc></OcultarEtiquetasDoc>
+		<OcultarVisitasDoc></OcultarVisitasDoc>
+		 <MetasPagina xml:lang="es">
+            <meta name="keywords" content="etapa, etapas" />
+        </MetasPagina>        
+        <MetasPagina xml:lang="en">
+            <meta name="keywords" content="route, routes" />
+        </MetasPagina>
+		
+		<TituloPagina>
+			<Propiedad ID="http://www.eroute/2014-04-28#routeName" EntidadID="http://www.obertadecatalunya/route#Route"></Propiedad>
+			<Literal> - </Literal>
+			<Literal>Etapa@es|||Route@en|||</Literal>	
+		</TituloPagina>
+	</ConfiguracionGeneral>
+	<EspefPropiedad>        
+		<Propiedad  ID="http://www.eroute/2014-04-28#routeName" EntidadID="http://www.obertadecatalunya/route#Route">
+			<AtrNombre xml:lang="es">Nombre:</AtrNombre>
+			<AtrNombreLectura xml:lang="es"></AtrNombreLectura>
+		</Propiedad>
+		<Propiedad  ID="http://www.eharmonise/2014-03-12#image" EntidadID="http://www.eharmonise/2014-03-12#Image">
+			<AtrNombre xml:lang="es"></AtrNombre>
+			<AtrNombreLectura xml:lang="es"></AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+			<TipoCampo>Imagen</TipoCampo>			
+			<ImgMiniVP>
+				<Size>
+					<Ancho>300</Ancho>
+					<Alto>300000</Alto>
+				</Size>				
+				<Size>
+					<Ancho>660</Ancho>
+					<Alto>300000</Alto>
+				</Size>
+			</ImgMiniVP>
+			<UsarJcrop></UsarJcrop>
+		</Propiedad>
+		<Propiedad  ID="http://www.eharmonise/2014-03-12#title" EntidadID="http://www.eharmonise/2014-03-12#Image">
+			<AtrNombre xml:lang="es">Leyenda de la imagen:</AtrNombre>
+			<AtrNombreLectura xml:lang="es"></AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+		</Propiedad>
+
+		<Propiedad  ID="http://www.eharmonise/2014-03-12#images" EntidadID="http://www.obertadecatalunya/route#Route">
+			<AtrNombre xml:lang="es"></AtrNombre>
+			<AtrNombreLectura xml:lang="es"></AtrNombreLectura>	
+				<MultiIdioma>false</MultiIdioma>
+		</Propiedad>
+		<Propiedad  ID="http://www.w3.org/2003/01/geo/wgs84_pos#long" EntidadID="http://www.eharmonise/2014-03-12#Location">
+			<AtrNombre xml:lang="es">Longitud:</AtrNombre>
+			<AtrNombreLectura xml:lang="es">Longitud</AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+		</Propiedad>
+		<Propiedad  ID="http://www.w3.org/2003/01/geo/wgs84_pos#lat" EntidadID="http://www.eharmonise/2014-03-12#Location">
+			<AtrNombre xml:lang="es">Latitud:</AtrNombre>
+			<AtrNombreLectura xml:lang="es">Latitud</AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+		</Propiedad>
+		<Propiedad  ID="http://www.eharmonise/2014-03-12#location" EntidadID="http://www.obertadecatalunya/route#Route">
+			<AtrNombre xml:lang="es"></AtrNombre>
+			<AtrNombreLectura xml:lang="es"></AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+		</Propiedad>
+
+		<Propiedad  ID="http://www.obertadecatalunya/route#isPartOfRoute" EntidadID="http://www.obertadecatalunya/route#Route">
+			<AtrNombre xml:lang="es"></AtrNombre>
+			<AtrNombreLectura xml:lang="es"></AtrNombreLectura>
+			<MultiIdioma>true</MultiIdioma>
+			<SeleccionEntidad>
+				
+				<TipoSeleccion MultiIdioma="true">Autocompletar</TipoSeleccion>
+				<NuevaPestanya>false</NuevaPestanya>
+				<Grafo>rtpath.owl</Grafo>
+				<LinkARecurso IrAComunidad="true"></LinkARecurso>
+				<UrlTipoEntSolicitada>http://www.eroute/2014-04-28#Path</UrlTipoEntSolicitada>
+				<PropsEntEdicion>
+					<NameProp>http://www.eroute/2014-04-28#pathName</NameProp>
+				</PropsEntEdicion>
+				<PropsEntLectura>
+					<Propiedad ID="http://www.eroute/2014-04-28#pathName" EntidadID="http://www.eroute/2014-04-28#Path">
+						<AtrNombreLectura></AtrNombreLectura>						
+					</Propiedad>
+					<Propiedad  ID="http://www.eroute/2014-04-28#hasRoute" EntidadID="http://www.eroute/2014-04-28#Path">
+						<AtrNombre>Etapas</AtrNombre>
+						<AtrNombreLectura></AtrNombreLectura>
+						<SeleccionEntidad>
+							<TipoSeleccion MultiIdioma="true">Autocompletar</TipoSeleccion>
+							<NuevaPestanya>false</NuevaPestanya>
+							<Grafo>rtroute.owl</Grafo>
+							<LinkARecurso IrAComunidad="true" PropiedadID="http://www.eroute/2014-04-28#routeName"></LinkARecurso>
+							<UrlTipoEntSolicitada>http://www.obertadecatalunya/route#Route</UrlTipoEntSolicitada>
+							<PropsEntLectura>
+								<Propiedad ID="http://www.eroute/2014-04-28#routeName" EntidadID="http://www.obertadecatalunya/route#Route">
+									<AtrNombreLectura></AtrNombreLectura>						
+								</Propiedad>
+
+							</PropsEntLectura>
+							<Reciproca></Reciproca>
+						</SeleccionEntidad>	
+					</Propiedad>
+					
+				</PropsEntLectura>
+				<Reciproca></Reciproca>
+				
+			</SeleccionEntidad>	
+		</Propiedad>
+
+		<Propiedad  ID="http://www.eroute/2014-04-28#hasLandmark" EntidadID="http://www.obertadecatalunya/route#Route">
+			<AtrNombre xml:lang="es"></AtrNombre>
+			<AtrNombreLectura xml:lang="es"></AtrNombreLectura>
+			<MultiIdioma>true</MultiIdioma>
+			<SeleccionEntidad>
+				
+				<TipoSeleccion MultiIdioma="true">Autocompletar</TipoSeleccion>
+				<NuevaPestanya>false</NuevaPestanya>
+				<Grafo>rtlandmark.owl</Grafo>
+				<LinkARecurso IrAComunidad="true"></LinkARecurso>
+				<UrlTipoEntSolicitada>http://www.eroute/2014-04-28#Landmark</UrlTipoEntSolicitada>
+				<PropsEntEdicion>
+					<NameProp>http://www.eroute/2014-04-28#landmarkName</NameProp>
+				</PropsEntEdicion>
+				<PropsEntLectura>
+					<Propiedad ID="http://www.eroute/2014-04-28#landmarkName" EntidadID="http://www.eroute/2014-04-28#Landmark">
+						<AtrNombreLectura></AtrNombreLectura>						
+					</Propiedad>
+				</PropsEntLectura>
+			</SeleccionEntidad>	
+		</Propiedad>
+
+		<Propiedad  ID="http://www.eroute/2014-04-28#points" EntidadID="http://www.obertadecatalunya/route#Route">
+			<AtrNombre>Puntos gps:</AtrNombre>
+			<AtrNombreLectura></AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+		</Propiedad>
+
+
+
+
+		<Propiedad  ID="http://www.eroute/2014-04-28#pubication" EntidadID="http://www.obertadecatalunya/route#Route">
+			<AtrNombre xml:lang="es">Publicación:</AtrNombre>
+			<AtrNombreLectura xml:lang="es">Publicación:</AtrNombreLectura>
+		</Propiedad>
+		<Propiedad  ID="http://www.eroute/2014-04-28#touristInformation" EntidadID="http://www.obertadecatalunya/route#Route">
+			<AtrNombre xml:lang="es"></AtrNombre>
+			<AtrNombreLectura xml:lang="es">Información turística:</AtrNombreLectura>
+			<TipoCampo>TextEditor</TipoCampo>
+		</Propiedad>
+		<Propiedad  ID="http://www.eroute/2014-04-28#trail" EntidadID="http://www.obertadecatalunya/route#Route">
+			<AtrNombre xml:lang="es">Recorrido:</AtrNombre>
+			<AtrNombreLectura xml:lang="es">Recorrido:</AtrNombreLectura>
+		</Propiedad>
+		<Propiedad  ID="http://www.eroute/2014-04-28#trailPoint" EntidadID="http://www.obertadecatalunya/route#Route">
+			<AtrNombre xml:lang="es"></AtrNombre>
+			<AtrNombreLectura xml:lang="es">Recorrido:</AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+		</Propiedad>
+		<Propiedad  ID="http://www.eroute/2014-04-28#hunts" EntidadID="http://www.obertadecatalunya/route#Route">
+			<AtrNombre xml:lang="es">Batidas de caza:</AtrNombre>
+			<AtrNombreLectura xml:lang="es">Batidas de caza:</AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+		</Propiedad>
+		<Propiedad  ID="http://www.eroute/2014-04-28#routeNaturalValue" EntidadID="http://www.obertadecatalunya/route#Route">
+			<AtrNombre xml:lang="es"></AtrNombre>
+			<AtrNombreLectura xml:lang="es">Valores naturales:</AtrNombreLectura>
+			<TipoCampo>TextEditor</TipoCampo>
+		</Propiedad>
+		<Propiedad  ID="http://www.eroute/2014-04-28#gpsRoute" EntidadID="http://www.obertadecatalunya/route#Route">
+			<AtrNombre xml:lang="es">Rutas de navegación:</AtrNombre>
+			<AtrNombreLectura xml:lang="es">Rutas de navegación:</AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+			<TipoCampo>Archivo</TipoCampo>
+		</Propiedad>
+		<Propiedad  ID="http://www.eroute/2014-04-28#pdf" EntidadID="http://www.obertadecatalunya/route#Route">
+			<AtrNombre xml:lang="es">Folleto:</AtrNombre>
+			<AtrNombreLectura xml:lang="es">Folleto:</AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+			<TipoCampo>Archivo</TipoCampo>
+		</Propiedad>
+		<Propiedad  ID="http://www.eroute/2014-04-28#routeFeature" EntidadID="http://www.obertadecatalunya/route#Route">
+			<AtrNombre xml:lang="es"></AtrNombre>
+			
+			<AtrNombreLectura xml:lang="es">Características:</AtrNombreLectura>
+			<TipoCampo>TextEditor</TipoCampo>
+		</Propiedad>
+		<Propiedad  ID="http://www.eroute/2014-04-28#color" EntidadID="http://www.obertadecatalunya/route#Route">
+			<AtrNombre xml:lang="es">Color de la etapa:</AtrNombre>
+			<MultiIdioma>false</MultiIdioma>
+			<AtrNombreLectura xml:lang="es">Color de la etapa:</AtrNombreLectura>
+
+		</Propiedad>
+		<Propiedad  ID="http://www.eroute/2014-04-28#routeNumber" EntidadID="http://www.obertadecatalunya/route#Route">
+			<AtrNombre xml:lang="es">Número de etapa:</AtrNombre>
+			<MultiIdioma>false</MultiIdioma>
+			<AtrNombreLectura xml:lang="es">Número de etapa:</AtrNombreLectura>
+		</Propiedad>
+		<Propiedad  ID="http://www.eroute/2014-04-28#ads" EntidadID="http://www.obertadecatalunya/route#Route">
+			<AtrNombre xml:lang="es">Avisos:</AtrNombre>
+			<AtrNombreLectura xml:lang="es">Avisos:</AtrNombreLectura>
+		</Propiedad>
+		<Propiedad  ID="http://www.eroute/2014-04-28#date" EntidadID="http://www.obertadecatalunya/route#Route">
+			<AtrNombre xml:lang="es">Fecha digitalización:</AtrNombre>
+			<AtrNombreLectura xml:lang="es">Fecha digitalización:</AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+		</Propiedad>
+		<Propiedad  ID="http://www.eroute/2014-04-28#description" EntidadID="http://www.obertadecatalunya/route#Route">
+			<AtrNombre xml:lang="es"></AtrNombre>
+			<AtrNombreLectura xml:lang="es">Descripción:</AtrNombreLectura>
+			<TipoCampo>TextEditor</TipoCampo>
+		</Propiedad>
+		<Propiedad  ID="http://www.eroute/2014-04-28#headOf" EntidadID="http://www.obertadecatalunya/route#Route">
+			<AtrNombre xml:lang="es">Responsable:</AtrNombre>
+			<AtrNombreLectura xml:lang="es">Responsable:</AtrNombreLectura>
+		</Propiedad>
+		<Propiedad  ID="http://www.obertadecatalunya/route#signaling" EntidadID="http://www.obertadecatalunya/route#Route">
+			<AtrNombre xml:lang="es">Señalización:</AtrNombre>
+			<AtrNombreLectura xml:lang="es">Señalización:</AtrNombreLectura>
+		</Propiedad>
+		<Propiedad  ID="http://www.obertadecatalunya/route#length" EntidadID="http://www.obertadecatalunya/route#Route">
+			<AtrNombre xml:lang="es">Distancia:</AtrNombre>
+			<AtrNombreLectura xml:lang="es">Distancia:</AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+		</Propiedad>
+		<Propiedad  ID="http://protege.stanford.edu/rdf/HTOv4002#region" EntidadID="http://www.eroute/2014-04-28#Path">
+			<AtrNombre xml:lang="es">Región:</AtrNombre>
+			<AtrNombreLectura xml:lang="es">Región:</AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+			<ValoresCombo>	
+				<ValorCombo>Rioja Alta</ValorCombo>		
+				<ValorCombo>Rioja Baja</ValorCombo>		
+				<ValorCombo>Sierra</ValorCombo>	
+				<ValorCombo>Logroño</ValorCombo>	
+			</ValoresCombo>	
+		</Propiedad>
+		<Propiedad  ID="http://www.obertadecatalunya/route#duration" EntidadID="http://www.obertadecatalunya/route#Route">
+			<AtrNombre xml:lang="es">Duración:</AtrNombre>
+			<AtrNombreLectura xml:lang="es">Duración:</AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+		</Propiedad>
+		<Propiedad  ID="http://www.eroute/2014-04-28#source" EntidadID="http://www.obertadecatalunya/route#Route">
+			<AtrNombre xml:lang="es">Fuente:</AtrNombre>
+			<AtrNombreLectura xml:lang="es">Fuente:</AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+		</Propiedad>
+		<Propiedad  ID="http://www.obertadecatalunya/route#url" EntidadID="http://www.obertadecatalunya/route#Route">
+			<AtrNombre xml:lang="es">Web de incidencias:</AtrNombre>
+			<AtrNombreLectura xml:lang="es">Web de incidencias:</AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+		</Propiedad>
+		<Propiedad  ID="http://www.eroute/2014-04-28#routeId" EntidadID="http://www.obertadecatalunya/route#Route">
+			<AtrNombre xml:lang="es">ID:</AtrNombre>
+			<AtrNombreLectura xml:lang="es">ID:</AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+		</Propiedad>
+		
+
+		<Propiedad  ID="http://protege.stanford.edu/rdf/HTOv4002#city" EntidadID="http://www.obertadecatalunya/route#Route">
+			<AtrNombre>Ciudad:</AtrNombre>
+			<AtrNombreLectura>Ciudad:</AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+			<SeleccionEntidad>
+				<TipoSeleccion MultiIdioma="true">Autocompletar</TipoSeleccion>
+				<NuevaPestanya>false</NuevaPestanya>
+				<Grafo>destination.owl</Grafo>
+				<LinkARecurso IrAComunidad="true"></LinkARecurso>
+				<UrlTipoEntSolicitada>http://www.eharmonise/2014-03-12#Destination</UrlTipoEntSolicitada>
+				<PropsEntEdicion>
+					<NameProp>http://protege.stanford.edu/rdf/HTOv4002#name</NameProp>
+				</PropsEntEdicion>
+				<PropsEntLectura>
+					<Propiedad ID="http://protege.stanford.edu/rdf/HTOv4002#name" EntidadID="http://www.eharmonise/2014-03-12#Destination">
+						<AtrNombreLectura></AtrNombreLectura>						
+					</Propiedad>					
+				</PropsEntLectura>
+				<ConsultaEdicion><![CDATA[select distinct ?s ?p ?name  from  <http://lariojaturismo.gnoss.com/destination.owl>  
+WHERE {  ?s ?p ?name. FILTER (?p=<http://protege.stanford.edu/rdf/HTOv4002#name>) } order by ?name  ]]></ConsultaEdicion>
+			</SeleccionEntidad>	
+		</Propiedad>
+
+		<Propiedad  ID="http://www.eroute/2014-04-28#order" EntidadID="http://www.eroute/2014-04-28#TrailPoint">
+			<AtrNombre xml:lang="es">Orden:</AtrNombre>
+			<AtrNombreLectura xml:lang="es">Orden del punto del recorrido:</AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+		</Propiedad>
+
+		<Propiedad  ID="http://www.eroute/2014-04-28#hasDestination" EntidadID="http://www.eroute/2014-04-28#TrailPoint">
+			<AtrNombre>Ciudad:</AtrNombre>
+			<AtrNombreLectura>Ciudad del punto del recorrido</AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+			<SeleccionEntidad>
+			
+				<TipoSeleccion MultiIdioma="true">Autocompletar</TipoSeleccion>
+				<NuevaPestanya>false</NuevaPestanya>
+				<Grafo>destination.owl</Grafo>
+				<LinkARecurso IrAComunidad="true">http://protege.stanford.edu/rdf/HTOv4002#name</LinkARecurso>
+				<UrlTipoEntSolicitada>http://www.eharmonise/2014-03-12#Destination</UrlTipoEntSolicitada>
+				<PropsEntEdicion>
+					<NameProp>http://protege.stanford.edu/rdf/HTOv4002#name</NameProp>
+				</PropsEntEdicion>
+				<PropsEntLectura>
+					<Propiedad ID="http://protege.stanford.edu/rdf/HTOv4002#name" EntidadID="http://www.eharmonise/2014-03-12#Destination">
+						<AtrNombreLectura></AtrNombreLectura>						
+					</Propiedad>
+
+					<Propiedad  ID="http://protege.stanford.edu/rdf/HTOv4002#longDescription" EntidadID="http://www.eharmonise/2014-03-12#Destination">
+						<AtrNombreLectura></AtrNombreLectura>
+						<TipoCampo>TextEditor</TipoCampo>
+					</Propiedad>
+
+
+					<Propiedad ID="http://www.eharmonise/2014-03-12#images" EntidadID="http://www.eharmonise/2014-03-12#Destination">
+						<Propiedad ID="http://www.eharmonise/2014-03-12#image" EntidadID="http://www.eharmonise/2014-03-12#Image">
+							<TipoCampo>Imagen</TipoCampo>
+							<ImgMiniVP>
+								<Size>				
+									<Alto>300</Alto>
+								</Size>	
+							</ImgMiniVP>
+							<AtrNombreLectura></AtrNombreLectura>						
+						</Propiedad>
+					</Propiedad>					
+				</PropsEntLectura>
+			</SeleccionEntidad>	
+		</Propiedad>
+
+
+		<Propiedad  ID="http://www.eroute/2014-04-28#hasLandmark" EntidadID="http://www.eroute/2014-04-28#TrailPoint">
+			<AtrNombre xml:lang="es">Punto de interés:</AtrNombre>
+			<AtrNombreLectura xml:lang="es">Punto de interés del punto del recorrido</AtrNombreLectura>
+			<MultiIdioma>true</MultiIdioma>
+			<SeleccionEntidad>
+				
+				<TipoSeleccion MultiIdioma="true">Autocompletar</TipoSeleccion>
+				<NuevaPestanya>false</NuevaPestanya>
+				<Grafo>rtlandmark.owl</Grafo>
+				<LinkARecurso IrAComunidad="true">http://www.eroute/2014-04-28#landmarkName</LinkARecurso>
+				<UrlTipoEntSolicitada>http://www.eroute/2014-04-28#Landmark</UrlTipoEntSolicitada>
+				<PropsEntEdicion>
+					<NameProp>http://www.eroute/2014-04-28#landmarkName</NameProp>
+				</PropsEntEdicion>
+				<PropsEntLectura>
+					<Propiedad ID="http://www.eroute/2014-04-28#landmarkName" EntidadID="http://www.eroute/2014-04-28#Landmark">
+						<AtrNombreLectura></AtrNombreLectura>						
+					</Propiedad>
+					<Propiedad  ID="http://www.eroute/2014-04-28#landmarkDescription" EntidadID="http://www.eroute/2014-04-28#Landmark">
+						<AtrNombreLectura></AtrNombreLectura>
+						<TipoCampo>TextEditor</TipoCampo>
+					</Propiedad>
+
+
+					<Propiedad ID="http://www.eharmonise/2014-03-12#image" EntidadID="http://www.eroute/2014-04-28#Landmark">
+						<TipoCampo>Imagen</TipoCampo>
+						<ImgMiniVP>
+							<Size>				
+								<Alto>300</Alto>
+							</Size>	
+						</ImgMiniVP>
+						<AtrNombreLectura></AtrNombreLectura>						
+					</Propiedad>						
+				</PropsEntLectura>
+			</SeleccionEntidad>	
+		</Propiedad>
+
+		<Propiedad  ID="http://www.eroute/2014-04-28#hasAttraction" EntidadID="http://www.eroute/2014-04-28#TrailPoint">
+			<AtrNombre>Lugar visitable:</AtrNombre>
+			<AtrNombreLectura>Lugar visitable:</AtrNombreLectura>
+			<MultiIdioma>false</MultiIdioma>
+			<SeleccionEntidad>
+				<TipoSeleccion MultiIdioma="true">Autocompletar</TipoSeleccion>
+				<NuevaPestanya>false</NuevaPestanya>
+				<Grafo>attraction.owl</Grafo>
+				<LinkARecurso IrAComunidad="true">http://protege.stanford.edu/rdf/HTOv4002#name</LinkARecurso>
+				<UrlTipoEntSolicitada>http://protege.stanford.edu/rdf/HTOv4002#Attraction</UrlTipoEntSolicitada>
+				<PropsEntEdicion>
+					<NameProp>http://protege.stanford.edu/rdf/HTOv4002#name</NameProp>
+				</PropsEntEdicion>
+				<PropsEntLectura>
+					<Propiedad ID="http://protege.stanford.edu/rdf/HTOv4002#name" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Attraction">
+						<AtrNombreLectura></AtrNombreLectura>						
+					</Propiedad>
+
+					<Propiedad  ID="http://protege.stanford.edu/rdf/HTOv4002#longDescription" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Attraction">
+						<AtrNombreLectura></AtrNombreLectura>
+						<TipoCampo>TextEditor</TipoCampo>
+					</Propiedad>
+
+					<Propiedad ID="http://www.eharmonise/2014-03-12#images" EntidadID="http://protege.stanford.edu/rdf/HTOv4002#Attraction">
+						<Propiedad ID="http://www.eharmonise/2014-03-12#image" EntidadID="http://www.eharmonise/2014-03-12#Image">
+							<TipoCampo>Imagen</TipoCampo>
+							<ImgMiniVP>
+								<Size>				
+									<Alto>300</Alto>
+								</Size>	
+							</ImgMiniVP>
+							<AtrNombreLectura></AtrNombreLectura>						
+						</Propiedad>
+					</Propiedad>					
+				</PropsEntLectura>
+			</SeleccionEntidad>	
+		</Propiedad>
+
+
+
+
+
+
+
+	</EspefPropiedad>
+	<EspefEntidad> 
+		<Entidad  ID="http://www.eroute/2014-04-28#TrailPoint">
+			<AtrNombre>Punto del recorrido</AtrNombre>
+			<AtrNombreLectura></AtrNombreLectura>
+			<OrdenEntidad>
+
+
+			<Grupo class="formtheme02">
+				<Grupo class="fieldset">
+				<AtrNombreGrupo></AtrNombreGrupo>
+					<Grupo Tipo="fieldset" class="mediumLabels">
+						<NameProp>http://www.eroute/2014-04-28#order</NameProp> 
+						<NameProp>http://www.eroute/2014-04-28#hasAttraction</NameProp>
+						<NameProp>http://www.eroute/2014-04-28#hasDestination</NameProp> 
+						<NameProp>http://www.eroute/2014-04-28#hasLandmark</NameProp> 	
+					</Grupo>
+				</Grupo>
+			</Grupo>
+
+			</OrdenEntidad>
+			<OrdenEntidadLectura>               
+				<NameProp>http://www.eroute/2014-04-28#order</NameProp> 
+				<NameProp>http://www.eroute/2014-04-28#hasAttraction</NameProp>
+				<NameProp>http://www.eroute/2014-04-28#hasDestination</NameProp> 
+				<NameProp>http://www.eroute/2014-04-28#hasLandmark</NameProp>                
+			</OrdenEntidadLectura>
+		</Entidad>
+		<Entidad  ID="http://www.eharmonise/2014-03-12#Image">
+			<AtrNombre></AtrNombre>
+			<AtrNombreLectura></AtrNombreLectura>
+			<OrdenEntidad>        
+				<NameProp>http://www.eharmonise/2014-03-12#image</NameProp> 
+				<NameProp>http://www.eharmonise/2014-03-12#title</NameProp>                      
+			</OrdenEntidad>
+			<OrdenEntidadLectura>               
+				<NameProp SizeFoto="660">http://www.eharmonise/2014-03-12#image</NameProp> 
+				<NameProp>http://www.eharmonise/2014-03-12#title</NameProp>               
+			</OrdenEntidadLectura>
+		</Entidad>
+		<Entidad  ID="http://www.obertadecatalunya/route#Route">
+			<AtrNombre>Etapa</AtrNombre>
+			<AtrNombreLectura></AtrNombreLectura>
+			<OrdenEntidad>
+
+				<Grupo class="formtheme02">
+
+					<Grupo class="fieldset">
+						<Grupo Tipo="fieldset" class="mediumLabels">
+							<NameProp>http://www.eroute/2014-04-28#routeName</NameProp>
+							<NameProp>http://www.eroute/2014-04-28#routeId</NameProp>
+							<NameProp>http://www.eroute/2014-04-28#routeNumber</NameProp>
+							<NameProp>http://www.eroute/2014-04-28#color</NameProp>
+							<NameProp>http://www.obertadecatalunya/route#url</NameProp>
+							<NameProp>http://www.eroute/2014-04-28#points</NameProp>
+						</Grupo>
+					</Grupo>
+
+					<Grupo class="fieldset">
+						<Grupo Tipo="fieldset" class="mediumLabels">                            
+							<NameProp>http://www.eroute/2014-04-28#pdf</NameProp> 
+							<NameProp>http://www.eroute/2014-04-28#gpsRoute</NameProp>
+						</Grupo>
+					</Grupo>
+					
+					<Grupo class="fieldset">
+						<AtrNombreGrupo></AtrNombreGrupo>
+						<Grupo Tipo="fieldset" class="mediumLabels">
+							<NameProp>http://www.eharmonise/2014-03-12#location</NameProp> 
+						</Grupo>
+					</Grupo>
+
+					<Grupo class="fieldset">
+						<AtrNombreGrupo>Ruta</AtrNombreGrupo>
+						<Grupo Tipo="fieldset">
+							<NameProp>http://www.obertadecatalunya/route#isPartOfRoute</NameProp>
+
+						</Grupo>
+
+					</Grupo>
+
+
+					<Grupo class="fieldset">
+						<AtrNombreGrupo>Puntos de interés</AtrNombreGrupo>
+						<Grupo Tipo="fieldset" class="mediumLabels">                            	
+							<NameProp>http://www.eroute/2014-04-28#hasLandmark</NameProp>		
+						</Grupo>
+
+					</Grupo>
+
+					<Grupo class="fieldset">
+						<AtrNombreGrupo>Imagenes</AtrNombreGrupo>
+						<Grupo Tipo="fieldset" class="mediumLabels">                            
+							<NameProp>http://www.eharmonise/2014-03-12#images</NameProp>
+						</Grupo>
+					</Grupo>
+
+
+
+					<Grupo class="fieldset">
+						<AtrNombreGrupo>Descripción</AtrNombreGrupo>
+						<Grupo class="fieldset">                     
+							<NameProp>http://www.eroute/2014-04-28#description</NameProp> 
+						</Grupo>
+					</Grupo>
+
+					<Grupo class="fieldset">
+						<AtrNombreGrupo>Características</AtrNombreGrupo>
+						<Grupo Tipo="fieldset" class="mediumLabels">                            
+							<NameProp>http://www.eroute/2014-04-28#routeFeature</NameProp>
+						</Grupo>
+
+					</Grupo>
+
+					<Grupo class="fieldset">
+						<AtrNombreGrupo>Valores naturales</AtrNombreGrupo>
+						<Grupo Tipo="fieldset" class="mediumLabels">                            
+							<NameProp>http://www.eroute/2014-04-28#routeNaturalValue</NameProp> 
+						</Grupo>
+					</Grupo>
+
+					<Grupo class="fieldset">
+						<AtrNombreGrupo>Información turística</AtrNombreGrupo>
+						<Grupo Tipo="fieldset" class="mediumLabels">                            
+							<NameProp>http://www.eroute/2014-04-28#touristInformation</NameProp> 
+						</Grupo>
+
+					</Grupo>
+
+
+					<NameProp>http://www.eroute/2014-04-28#trailPoint</NameProp> 
+
+					<Grupo class="fieldset">
+
+						<Grupo Tipo="fieldset" class="mediumLabels">                            
+							<NameProp>http://www.eroute/2014-04-28#trail</NameProp>
+							
+						</Grupo>
+
+					</Grupo>
+
+					<Grupo class="fieldset">
+						<Grupo Tipo="fieldset" class="mediumLabels">	
+							<NameProp>http://protege.stanford.edu/rdf/HTOv4002#city</NameProp> 
+							<NameProp>http://protege.stanford.edu/rdf/HTOv4002#region</NameProp> 
+						</Grupo>
+
+					</Grupo>
+					<Grupo class="fieldset">
+
+						<Grupo Tipo="fieldset" class="mediumLabels">                            
+
+							<NameProp>http://www.obertadecatalunya/route#length</NameProp> 
+							<NameProp>http://www.obertadecatalunya/route#duration</NameProp> 
+							<NameProp>http://www.obertadecatalunya/route#signaling</NameProp> 
+							<NameProp>http://www.eroute/2014-04-28#pubication</NameProp> 
+							<NameProp>http://www.eroute/2014-04-28#headOf</NameProp> 
+							<NameProp>http://www.eroute/2014-04-28#source</NameProp>
+							<NameProp>http://www.eroute/2014-04-28#date</NameProp> 
+							<NameProp>http://www.eroute/2014-04-28#hunts</NameProp> 
+							<NameProp>http://www.eroute/2014-04-28#ads</NameProp>
+
+						</Grupo>
+
+					</Grupo>
+
+
+
+
+					
+
+				</Grupo>
+			</OrdenEntidad>
+			<!--<MapaGoogle lat="http://www.w3.org/2003/01/geo/wgs84_pos#lat" long="http://www.w3.org/2003/01/geo/wgs84_pos#long"></MapaGoogle>-->
+			<MapaGoogleRuta ruta="http://www.eroute/2014-04-28#points" PropColor="http://www.eroute/2014-04-28#color" SustituirEntidad="false"></MapaGoogleRuta>
+			<OrdenEntidadLectura>
+
+
+				<Grupo classLectura="group content semanticView">
+
+					<Grupo classLectura="contentGroup contenidoPrincipal">
+						<Grupo classLectura="group title">
+							<Grupo Tipo="titulo">
+								<NameProp>http://www.eroute/2014-04-28#routeName</NameProp>	
+							</Grupo>
+							<Grupo Tipo="subtitulo">
+								<NameProp>http://www.obertadecatalunya/route#isPartOfRoute</NameProp> 
+							</Grupo>
+						</Grupo>
+
+						<Grupo classLectura="group group_images">
+							<AtrNombreGrupo></AtrNombreGrupo>
+							<Grupo classLectura="contentGroup">                             
+								<NameProp>http://www.eharmonise/2014-03-12#images</NameProp>                             
+							</Grupo>
+						</Grupo>
+						<Grupo classLectura="group group_general">
+							<AtrNombreGrupo></AtrNombreGrupo>
+							<Grupo classLectura="contentGroup">
+								<NameProp>http://www.eroute/2014-04-28#description</NameProp> 
+							</Grupo>
+						</Grupo>
+
+						<Grupo classLectura="group group_recorrido">
+							<AtrNombreGrupo></AtrNombreGrupo>
+							<Grupo classLectura="contentGroup">
+								<NameProp>http://www.eroute/2014-04-28#trailPoint</NameProp> 
+							</Grupo>
+						</Grupo>
+
+					<Grupo classLectura="group group_location">
+							<AtrNombreGrupo></AtrNombreGrupo>
+							<Grupo classLectura="contentGroup">
+								<NameProp>http://www.eroute/2014-04-28#points</NameProp>
+								<NameProp>http://www.eroute/2014-04-28#color</NameProp>	
+							</Grupo>
+						</Grupo>
+						
+
+						
+						
+						
+						
+						<Grupo classLectura="group group_location group_location_pdf">
+							<AtrNombreGrupo></AtrNombreGrupo>
+							<Grupo classLectura="contentGroup">
+							
+							<Literal Visible="true">
+							<Literal xml:lang="es">Descargar folleto</Literal>
+							<Literal xml:lang="en">Download File</Literal>
+							</Literal>
+							
+								<NameProp>http://www.eroute/2014-04-28#pdf</NameProp> 
+							
+							</Grupo>
+						</Grupo>
+						
+
+					</Grupo>
+
+
+					<Grupo classLectura="contenidoSecundario">					
+						<Grupo classLectura="group group_address">
+
+							<Grupo classLectura="contentGroup">	
+
+
+								<NameProp>http://www.eroute/2014-04-28#trail</NameProp>
+								<NameProp>http://www.obertadecatalunya/route#length</NameProp> 		
+								<NameProp>http://www.obertadecatalunya/route#duration</NameProp>
+
+								<NameProp>http://protege.stanford.edu/rdf/HTOv4002#city</NameProp>
+								<NameProp>http://protege.stanford.edu/rdf/HTOv4002#region</NameProp> 
+								<NameProp>http://www.eroute/2014-04-28#gpsRoute</NameProp> 
+								<NameProp>http://www.obertadecatalunya/route#signaling</NameProp>
+								<NameProp>http://www.eroute/2014-04-28#hunts</NameProp> 
+								<NameProp>http://www.eroute/2014-04-28#ads</NameProp>
+							</Grupo>
+
+						</Grupo>	
+						<Grupo classLectura="group group_address">
+							<AtrNombreGrupo>Otros puntos de intéres:</AtrNombreGrupo>
+							<Grupo classLectura="contentGroup">
+
+								<NameProp>http://www.eroute/2014-04-28#hasLandmark</NameProp>	
+							</Grupo>
+						</Grupo>
+
+					</Grupo>	
+
+
+
+					<!--<NameProp>http://www.eroute/2014-04-28#points</NameProp>-->
+					<!-- <Grupo classLectura="group group_info">
+                        <AtrNombreGrupo>Propiedades de la etapa</AtrNombreGrupo>
+                        <Grupo classLectura="contentGroup">
+                            <NameProp>http://www.eroute/2014-04-28#pdf</NameProp> 
+							<NameProp>http://www.eroute/2014-04-28#routeId</NameProp>
+							<NameProp>http://www.eroute/2014-04-28#routeNumber</NameProp>
+                            <NameProp>http://www.eroute/2014-04-28#routeFeature</NameProp>
+						   <NameProp>http://www.eroute/2014-04-28#pubication</NameProp> 
+						   <NameProp>http://www.eroute/2014-04-28#headOf</NameProp> 
+						   <NameProp>http://www.eroute/2014-04-28#routeNaturalValue</NameProp> 
+						   <NameProp>http://www.eroute/2014-04-28#source</NameProp>
+						    <NameProp>http://www.eroute/2014-04-28#date</NameProp> 
+							<NameProp>http://www.eroute/2014-04-28#touristInformation</NameProp> 
+							<NameProp>http://www.obertadecatalunya/route#url</NameProp>
+                        </Grupo>
+                    </Grupo>-->
+				</Grupo>
+			</OrdenEntidadLectura>
+
+
+
+		</Entidad>
+		<Entidad  ID="http://www.eharmonise/2014-03-12#Location">
+			<AtrNombre>Punto GPS</AtrNombre>
+			<AtrNombreLectura>Punto GPS</AtrNombreLectura>
+			<OrdenEntidad>
+				<Grupo class="formtheme02">
+					<Grupo class="fieldset">
+						<Grupo Tipo="fieldset" class="mediumLabels">
+							<NameProp>http://www.w3.org/2003/01/geo/wgs84_pos#lat</NameProp> 
+							<NameProp>http://www.w3.org/2003/01/geo/wgs84_pos#long</NameProp>  
+						</Grupo>
+					</Grupo>
+				</Grupo>
+			</OrdenEntidad>
+			<OrdenEntidadLectura>            
+				<NameProp>http://www.w3.org/2003/01/geo/wgs84_pos#lat</NameProp> 
+				<NameProp>http://www.w3.org/2003/01/geo/wgs84_pos#long</NameProp>                
+			</OrdenEntidadLectura>
+		</Entidad>
+	</EspefEntidad>
+</config>

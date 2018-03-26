@@ -1,0 +1,664 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:harmonise="http://protege.stanford.edu/rdf/HTOv4002#"
+    xmlns:multiLan="http://www.multilang-property/20140324#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:onTour="http://e-tourism.deri.at/ont/e-tourism#"
+    xmlns:frbrer="http://purl.org/vocab/frbr/core#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:eharmonise="http://www.eharmonise/2014-03-12#"
+    xmlns="http://www.eharmoniseaccommodations/2014-03-12.owl#"
+    xmlns:gn="http://www.geonames.org/ontology#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:dcmitype="http://purl.org/dc/dcmitype/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xml:base="http://www.eharmoniseaccommodations/2014-03-12.owl">
+  <owl:Ontology rdf:about="">
+    <rdfs:comment xml:lang="es">Vocabulario para representar las Noticias de La Rioja Tourismo</rdfs:comment>
+    <rdfs:comment xml:lang="en">Vocabulary to represent La Rioja Tourism Accommodations</rdfs:comment>
+  </owl:Ontology>
+  <owl:Class rdf:about="http://protege.stanford.edu/rdf/HTOv4002#Accommodation">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#reservations"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#flickr"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:about="http://protege.stanford.edu/rdf/HTOv4002#fax"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.eharmonise/2014-03-12#multimedia"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:comment xml:lang="es">Alojamientos</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#linkedin"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#roomNumbers"/>
+        </owl:onProperty>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:about="http://e-tourism.deri.at/ont/e-tourism#offers"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:about="http://protege.stanford.edu/rdf/HTOv4002#telephone"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#twitter"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#accommodationCategory"/>
+        </owl:onProperty>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#openingYear"/>
+        </owl:onProperty>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#director"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:about="http://protege.stanford.edu/rdf/HTOv4002#comment"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:about="http://protege.stanford.edu/rdf/HTOv4002#shortDescription"/>
+        </owl:onProperty>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#pinterest"/>
+        </owl:onProperty>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#youtube"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#capacity"/>
+        </owl:onProperty>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#facebook"/>
+        </owl:onProperty>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:about="http://e-tourism.deri.at/ont/e-tourism#hasEndDate"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:about="http://protege.stanford.edu/rdf/HTOv4002#url"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://www.eharmonise/2014-03-12#location"/>
+        </owl:onProperty>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#googlePlus"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#hotelChain"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="http://e-tourism.deri.at/ont/e-tourism#rentalType"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:comment xml:lang="en">Accommodation</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:about="http://protege.stanford.edu/rdf/HTOv4002#streetAddress"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#instagram"/>
+        </owl:onProperty>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:about="http://protege.stanford.edu/rdf/HTOv4002#email"/>
+        </owl:onProperty>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.eharmonise/2014-03-12#MultiMedia"/>
+  <owl:Class rdf:about="http://www.eharmonise/2014-03-12#ValuePrice">
+    <rdfs:comment xml:lang="en">Prices</rdfs:comment>
+    <rdfs:comment xml:lang="es">Precios</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.eharmonise/2014-03-12#ValueProfile">
+    <rdfs:comment xml:lang="es">Profiles</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.eharmonise/2014-03-12#Image">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#footer"/>
+        </owl:onProperty>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#imageUrl"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#mainImage"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.eharmonise/2014-03-12#Location">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#description"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#subtitle"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:about="http://www.geonames.org/ontology#name"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.eharmonise/2014-03-12#ValueService"/>
+  <owl:Class rdf:about="http://www.eharmonise/2014-03-12#Document"/>
+  <owl:ObjectProperty rdf:about="http://www.eharmonise/2014-03-12#profiles">
+    <rdfs:range rdf:resource="http://www.eharmonise/2014-03-12#ValueProfile"/>
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+    <rdfs:comment xml:lang="es">Perfiles</rdfs:comment>
+    <rdfs:comment xml:lang="en">Profiles</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.eharmonise/2014-03-12#services">
+    <rdfs:range rdf:resource="http://www.eharmonise/2014-03-12#ValueService"/>
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.eharmonise/2014-03-12#facilities">
+    <rdfs:comment xml:lang="es">Servicios adicionales</rdfs:comment>
+    <rdfs:comment xml:lang="en">Facilities</rdfs:comment>
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.eharmonise/2014-03-12#documents">
+    <rdfs:comment xml:lang="es">Documentos</rdfs:comment>
+    <rdfs:comment xml:lang="en">Documents</rdfs:comment>
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+    <rdfs:range rdf:resource="http://www.eharmonise/2014-03-12#Document"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.eharmonise/2014-03-12#multimedia">
+    <rdfs:range rdf:resource="http://www.eharmonise/2014-03-12#MultiMedia"/>
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+    <rdfs:comment xml:lang="es">Multimedia</rdfs:comment>
+    <rdfs:comment xml:lang="en">Muiltimedia</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.eharmonise/2014-03-12#images">
+    <rdfs:comment xml:lang="en">Images</rdfs:comment>
+    <rdfs:comment xml:lang="es">Imagenes</rdfs:comment>
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+    <rdfs:range rdf:resource="http://www.eharmonise/2014-03-12#Image"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.eharmonise/2014-03-12#prices">
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+    <rdfs:range rdf:resource="http://www.eharmonise/2014-03-12#ValuePrice"/>
+    <rdfs:comment xml:lang="es">Precios</rdfs:comment>
+    <rdfs:comment xml:lang="en">Prices</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://protege.stanford.edu/rdf/HTOv4002#award">
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+    <rdfs:comment xml:lang="es">Menciones de Calidad</rdfs:comment>
+    <rdfs:comment xml:lang="en">Awardings</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.eharmonise/2014-03-12#location">
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+    <rdfs:range rdf:resource="http://www.eharmonise/2014-03-12#Location"/>
+    <rdfs:comment xml:lang="es">Puntos de geolocalización</rdfs:comment>
+    <rdfs:comment xml:lang="en">Geolocation points</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://e-tourism.deri.at/ont/e-tourism#rentalType">
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="http://protege.stanford.edu/rdf/HTOv4002#telephone">
+    <rdfs:comment xml:lang="es">Teléfono</rdfs:comment>
+    <rdfs:comment xml:lang="en">Telephone</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#footer">
+    <rdfs:domain rdf:resource="http://www.eharmonise/2014-03-12#Image"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#reservations">
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:comment xml:lang="en">Ofertas o descuentos</rdfs:comment>
+    <rdfs:comment xml:lang="es">Discount</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.geonames.org/ontology#name">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.eharmonise/2014-03-12#Location"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://protege.stanford.edu/rdf/HTOv4002#comment">
+    <rdfs:comment xml:lang="es">Comentarios</rdfs:comment>
+    <rdfs:comment xml:lang="en">Comments</rdfs:comment>
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#linkedin">
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:comment xml:lang="es">Linkedin</rdfs:comment>
+    <rdfs:label xml:lang="es">Linkedin</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#capacity">
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:comment xml:lang="en">Capacity</rdfs:comment>
+    <rdfs:comment xml:lang="es">Capacidad</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://protege.stanford.edu/rdf/HTOv4002#url">
+    <owl:versionInfo xml:lang="en">Link to external content</owl:versionInfo>
+    <rdfs:comment xml:lang="es">Link de acceso a contenido externo</rdfs:comment>
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#accommodationCategory">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+    <rdfs:comment xml:lang="en">Accommodation Category</rdfs:comment>
+    <rdfs:comment xml:lang="es">Tipo de alojamiento</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#instagram">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+    <rdfs:label xml:lang="es">Instagram</rdfs:label>
+    <rdfs:comment xml:lang="es">Instagram</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#googlePlus">
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="es">Google+</rdfs:label>
+    <rdfs:comment xml:lang="es">Google+</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#flickr">
+    <rdfs:comment xml:lang="es">Flickr</rdfs:comment>
+    <rdfs:label xml:lang="es">Flickr</rdfs:label>
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://protege.stanford.edu/rdf/HTOv4002#email">
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:comment xml:lang="es">E-Mail</rdfs:comment>
+    <rdfs:comment xml:lang="en">E-Mail</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#pinterest">
+    <rdfs:label xml:lang="es">Pinterest</rdfs:label>
+    <rdfs:comment xml:lang="es">Pinterest</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://e-tourism.deri.at/ont/e-tourism#hasEndDate">
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:comment xml:lang="en">Has End Date</rdfs:comment>
+    <rdfs:comment xml:lang="es">Tiene fecha  de cierre</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#description">
+    <rdfs:domain rdf:resource="http://www.eharmonise/2014-03-12#Location"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#director">
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+    <rdfs:comment xml:lang="en">Director</rdfs:comment>
+    <rdfs:comment xml:lang="es">Director</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#youtube">
+    <rdfs:label xml:lang="es">Youtube</rdfs:label>
+    <rdfs:comment xml:lang="es">Youtube</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#roomNumbers">
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:comment xml:lang="en">Room Numbers</rdfs:comment>
+    <rdfs:comment xml:lang="es">Número de habitaciones</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#twitter">
+    <rdfs:label xml:lang="es">Twitter</rdfs:label>
+    <rdfs:comment xml:lang="es">Twitter</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://e-tourism.deri.at/ont/e-tourism#offers">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+    <rdfs:comment xml:lang="es">Offers</rdfs:comment>
+    <rdfs:comment xml:lang="en">Gestión de reservas</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#subtitle">
+    <rdfs:domain rdf:resource="http://www.eharmonise/2014-03-12#Location"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#mainImage">
+    <rdfs:domain rdf:resource="http://www.eharmonise/2014-03-12#Image"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#openingYear">
+    <rdfs:comment xml:lang="es">Año de Apertura</rdfs:comment>
+    <rdfs:comment xml:lang="en">Opening Year</rdfs:comment>
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://protege.stanford.edu/rdf/HTOv4002#fax">
+    <rdfs:comment xml:lang="es">Número de Fax</rdfs:comment>
+    <rdfs:comment xml:lang="en">Fax number</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#hotelChain">
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:comment xml:lang="en">Hotel Chain</rdfs:comment>
+    <rdfs:comment xml:lang="es">Cadena Hotelera</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#imageUrl">
+    <rdfs:domain rdf:resource="http://www.eharmonise/2014-03-12#Image"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://protege.stanford.edu/rdf/HTOv4002#shortDescription">
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:comment xml:lang="en">Short description</rdfs:comment>
+    <rdfs:comment xml:lang="es">Descripción corta</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#facebook">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+    <rdfs:label xml:lang="es">FaceBook</rdfs:label>
+    <rdfs:comment xml:lang="es">FaceBook</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://protege.stanford.edu/rdf/HTOv4002#streetAddress">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+    <rdfs:comment xml:lang="en">Street address</rdfs:comment>
+    <rdfs:comment xml:lang="es">Dirección completa</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:FunctionalProperty rdf:about="http://protege.stanford.edu/rdf/HTOv4002#priceValue">
+    <rdfs:comment xml:lang="en">Price</rdfs:comment>
+    <rdfs:comment xml:lang="es">Precio</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.eharmonise/2014-03-12#ValuePrice"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="http://www.eharmonise/2014-03-12#serviceValue">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.eharmonise/2014-03-12#ValueService"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="http://protege.stanford.edu/rdf/HTOv4002#name">
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:comment xml:lang="en">Accommodation name</rdfs:comment>
+    <rdfs:comment xml:lang="en">Nombre del alojamiento</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="http://www.eharmonise/2014-03-12#profileValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.eharmonise/2014-03-12#ValueProfile"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="http://www.eharmonise/2014-03-12#service">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.eharmonise/2014-03-12#ValueService"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#lat">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.eharmonise/2014-03-12#Location"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="http://purl.org/vocab/frbr/core#p3020_has_title_of_the_manifestation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.eharmonise/2014-03-12#Document"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="http://protege.stanford.edu/rdf/HTOv4002#accommodationType">
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="http://protege.stanford.edu/rdf/HTOv4002#longDescription">
+    <rdfs:comment xml:lang="es">Descripción larga</rdfs:comment>
+    <rdfs:comment xml:lang="en">Long Description</rdfs:comment>
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="http://purl.org/vocab/frbr/core#p3096_has_access_address">
+    <rdfs:domain rdf:resource="http://www.eharmonise/2014-03-12#Document"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="http://www.eharmonise/2014-03-12#image">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.eharmonise/2014-03-12#Image"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#long">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.eharmonise/2014-03-12#Location"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="http://www.eharmonise/2014-03-12#multiMediaName">
+    <rdfs:domain rdf:resource="http://www.eharmonise/2014-03-12#MultiMedia"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="http://protege.stanford.edu/rdf/HTOv4002#city">
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="http://protege.stanford.edu/rdf/HTOv4002#priceDescription">
+    <rdfs:domain rdf:resource="http://www.eharmonise/2014-03-12#ValuePrice"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="http://www.eharmonise/2014-03-12#title">
+    <rdfs:domain rdf:resource="http://www.eharmonise/2014-03-12#Image"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="http://protege.stanford.edu/rdf/HTOv4002#region">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:comment xml:lang="es">Comarca</rdfs:comment>
+    <rdfs:comment xml:lang="en">Region</rdfs:comment>
+    <rdfs:domain rdf:resource="http://protege.stanford.edu/rdf/HTOv4002#Accommodation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="http://www.eharmonise/2014-03-12#multimediaFile">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.eharmonise/2014-03-12#MultiMedia"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="http://www.eharmonise/2014-03-12#profile">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    ></rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.eharmonise/2014-03-12#ValueProfile"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </owl:FunctionalProperty>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.3.1, Build 430)  http://protege.stanford.edu -->

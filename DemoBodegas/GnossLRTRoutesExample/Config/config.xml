@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<config>
+  <apiEndpoint>http://serviciostrygnoss.gnoss.com/api/v3</apiEndpoint>
+  <communityShortName>demobodega23</communityShortName>
+  <developerEmail>test@gnos.com</developerEmail>
+  <ontologyName>winery</ontologyName>
+  <consumer>
+    <consumerKey>3FA1mxSL1Ug13hGf2ijdQYmJRFxeVh</consumerKey>
+    <consumerSecret>3FA1mxSL1UhMcDJLJkFFRah5X4EGJg</consumerSecret>
+  </consumer>
+  <token>
+    <tokenKey>HtjInhSL1UgdmWr7+xhmSLJ/AWUoSz</tokenKey>
+    <tokenSecret>HtjInhSL1Uiy7q0MIcliT+U7eIZf+W</tokenSecret>
+  </token>
+  <log>
+    <logPath>c:\logs</logPath>
+    <logFileName>gnossapi.log</logFileName>
+    <logLevel>ALL</logLevel>
+  </log>
+</config>

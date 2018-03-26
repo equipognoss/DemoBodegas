@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:eroute="http://www.eroute/2014-04-28#"
+    xmlns:harmonise="http://protege.stanford.edu/rdf/HTOv4002#"
+    xmlns:multiLan="http://www.multilang-property/20140324#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:route="http://www.obertadecatalunya/route#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:date="http://www.date.com#"
+    xmlns:eharmonise="http://www.eharmonise/2014-03-12#"
+    xmlns="http://www.efrbrery/201403.owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:dbpedia="http://dbpedia.org/ontology/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xml:base="http://www.efrbrery/201403.owl">
+  <owl:Ontology rdf:about="">
+    <rdfs:comment xml:lang="es"></rdfs:comment>
+    <rdfs:comment xml:lang="en"></rdfs:comment>
+  </owl:Ontology>
+  <owl:Class rdf:about="http://www.eharmonise/2014-03-12#Location"/>
+  <owl:Class rdf:about="http://www.eroute/2014-04-28#Landmark">
+    <rdfs:comment xml:lang="es">Ruta</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:maxCardinality>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:about="http://www.eroute/2014-04-28#landmarkDescription"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://www.obertadecatalunya/route#hasAttraction">
+    <rdfs:domain rdf:resource="http://www.eroute/2014-04-28#Landmark"/>
+    <rdfs:label xml:lang="es">Lugares visitables</rdfs:label>
+    <rdfs:comment xml:lang="es">Lugares visitables</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://protege.stanford.edu/rdf/HTOv4002#city">
+    <rdfs:domain rdf:resource="http://www.eroute/2014-04-28#Landmark"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.eroute/2014-04-28#isDestination">
+    <rdfs:domain rdf:resource="http://www.eroute/2014-04-28#Landmark"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.eharmonise/2014-03-12#location">
+    <rdfs:range rdf:resource="http://www.eharmonise/2014-03-12#Location"/>
+    <rdfs:domain rdf:resource="http://www.eroute/2014-04-28#Landmark"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.eroute/2014-04-28#hasRoute">
+    <rdfs:domain rdf:resource="http://www.eroute/2014-04-28#Landmark"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="http://www.eharmonise/2014-03-12#image">
+    <rdfs:domain rdf:resource="http://www.eroute/2014-04-28#Landmark"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:comment xml:lang="es">Imagenes</rdfs:comment>
+    <rdfs:label xml:lang="es">Imagenes</rdfs:label>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.eroute/2014-04-28#landmarkDescription">
+    <rdfs:label xml:lang="es">Descripción</rdfs:label>
+    <rdfs:comment xml:lang="es">Descripción</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.eroute/2014-04-28#Landmark"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://protege.stanford.edu/rdf/HTOv4002#region">
+    <rdfs:domain rdf:resource="http://www.eroute/2014-04-28#Landmark"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:FunctionalProperty rdf:about="http://www.eroute/2014-04-28#landmarkId">
+    <rdfs:comment xml:lang="es">ID</rdfs:comment>
+    <rdfs:label xml:lang="es">ID</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.eroute/2014-04-28#Landmark"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#long">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.eharmonise/2014-03-12#Location"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#lat">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:domain rdf:resource="http://www.eharmonise/2014-03-12#Location"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="http://www.eroute/2014-04-28#landmarkName">
+    <rdfs:label xml:lang="es">Nombre</rdfs:label>
+    <rdfs:comment xml:lang="es">Nombre</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.eroute/2014-04-28#Landmark"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:FunctionalProperty>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.3.1, Build 430)  http://protege.stanford.edu -->
